@@ -7,3 +7,10 @@
     font-family: 'sf-pro-semibold';
     src: url('../fonts/sf-pro-text_semibold.woff2');
 }
+
+.item {
+    align-items: center;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+}
