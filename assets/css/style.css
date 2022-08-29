@@ -1,11 +1,36 @@
 @font-face {
-    font-family: 'sf-pro-regular';
-    src: url('../fonts/sf-pro-text_regular.woff2');
+    font-family: 'Google-Sans-Bold';
+    src: url('../fonts/Google-Sans-1.woff2');
 }
 
 @font-face {
-    font-family: 'sf-pro-semibold';
-    src: url('../fonts/sf-pro-text_semibold.woff2');
+    font-family: 'Google-Sans-Regular';
+    src: url('../fonts/Google-Sans-2.woff2');
+}
+
+@font-face {
+    font-family: 'Google-Sans-Display';
+    src: url('../fonts/Google-Sans-Display.woff2');
+}
+
+@font-face {
+    font-family: 'Product-Sans';
+    src: url('../fonts/Product-Sans.woff2');
+}
+
+@font-face {
+    font-family: 'Roboto-SemiBold';
+    src: url('../fonts/Roboto.woff2');
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/Roboto-1.woff2');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-2.woff2');
 }
 
 .item {
@@ -13,4 +38,48 @@
     display: flex;
     height: 200px;
     justify-content: center;
+}
+
+.bg-custom-dark{
+    background-color: #000032;
+}
+
+.bg-custom-pink{
+    background-color: #e4a4b2;
+}
+
+.bg-custom-light{
+    background-color: #dcdce6;
+}
+
+.bg-custom-white{
+    background-color: #fcfbf3;
+}
+
+.bg-custom-green{
+    background-color: #63d693;
+}
+
+.header-title{
+    font-family: 'Google-Sans-Bold';
+}
+
+.header-caption{
+    font-family: 'Google-Sans-Regular';
+}
+
+.icon-title{
+    font-family: 'Google-Sans-Display';
+}
+
+.box-title{
+    font-family: 'Roboto-Bold';
+}
+
+.box-caption{
+    font-family: 'Roboto-SemiBold';
+}
+
+.description{
+    font-family: 'Roboto-Regular';
 }
