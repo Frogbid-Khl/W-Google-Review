@@ -84,9 +84,18 @@
     font-family: 'Roboto-Regular';
 }
 
+.card-title{
+    margin: 0;
+}
+
+.text-blue{
+    color: #3073f0;
+}
+
 .custom-button{
-    border-radius: 50%;
-    padding: 10px 50px;
+    font-family: 'Roboto-Bold';
+    border-radius: 15px;
+    padding: 10px 25px;
 }
 
 .custom-body-size{
