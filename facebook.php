@@ -24,7 +24,9 @@
     <title>Facebook Review | Reputationdealer</title>
 </head>
 <body>
-
+<?php
+include ("includes/navbar.php");
+?>
 <section class="bg-custom-light">
     <div class="container pt-2 pb-5">
         <div class="row mt-2">
@@ -56,34 +58,60 @@
                     The quickest, the easiest and most affordable way to take full control of your online reputation –
                     real Facebook from active and authentic users.
                 </p>
-                <div class="mb-3 description">
-                    <label class="form-label">Select Facebook Reviews Type *</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Open this select menu</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                    </select>
-                </div>
-                <div class="mb-3 description">
-                    <label class="form-label">Select Star Ratings *</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Open this select menu</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                    </select>
-                </div>
-                <div class="mb-3">
+                <form method="post" action="form_submit.php">
                     <div class="row">
-                        <div class="d-grid col-6">
-                            <button type="button" class="btn btn-primary btn-lg box-caption">Add to Cart</button>
+                        <div class="mb-3 description col-6">
+                            <label class="form-label">Email</label>
+                            <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
                         </div>
-                        <div class="d-grid col-6">
-                            <button type="button" class="btn btn-secondary btn-lg box-caption">Buy Now</button>
+                        <div class="mb-3 description col-6">
+                            <label class="form-label">Contact Number</label>
+                            <input type="text" name="number" class="form-control" placeholder="XXXX" required>
                         </div>
                     </div>
-                </div>
+                    <div class="row">
+                        <div class="mb-3 description col-6">
+                            <label class="form-label">Select Google Reviews Type *</label>
+                            <select class="form-select" name="star" aria-label="Default select example" required>
+                                <option selected>Select Number of Stars</option>
+                                <option value="1">One</option>
+                                <option value="5">Five</option>
+                            </select>
+                        </div>
+                        <div class="mb-3 description col-6">
+                            <label class="form-label">Select target country *</label>
+                            <select class="form-select" name="country" aria-label="Default select example" required>
+                                <option selected>Select the Targeted Country</option>
+                                <option value="us">US</option>
+                                <option value="uk">UK</option>
+                                <option value="canada">Canada</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mb-3 description">
+                        <label class="form-label">No. of Review</label>
+                        <input type="text" name="number_of_review" class="form-control" placeholder="XXXX" required>
+                    </div>
+                    <div class="mb-3 description">
+                        <label class="form-label">Enter Custom Reviews *</label>
+                        <textarea class="form-control" name="message" rows="3" required></textarea>
+                    </div>
+                    <div class="mb-3 description">
+                        <label class="form-label">Enter Google My Business/Google Maps URL *</label>
+                        <input type="text" name="url" class="form-control" placeholder="https://" required>
+                    </div>
+                    <input type="hidden" name="page" class="form-control" value="facebook">
+                    <div class="mb-3">
+                        <div class="row">
+                            <div class="d-grid col-6">
+                                <button type="button" class="btn btn-primary btn-lg box-caption">Add to Cart</button>
+                            </div>
+                            <div class="d-grid col-6">
+                                <button type="submit" name="submit" class="btn btn-secondary btn-lg box-caption">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

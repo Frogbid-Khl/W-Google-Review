@@ -21,18 +21,22 @@
     <!-- Custom CSS -->
     <link href="assets/css/style.css" rel="stylesheet"/>
 
-    <title>Google Review | Reputationdealer</title>
+    <title>Yelp Review | Reputationdealer</title>
 </head>
 <body>
+
+<?php
+include ("includes/navbar.php");
+?>
 
 <section class="bg-custom-light">
     <div class="container pt-2 pb-5">
         <div class="row mt-2">
             <div class="col-lg-6 mt-3">
-                <img src="assets/img/review/google.jpg" alt="" class="img-fluid"/>
+                <img src="assets/img/review/yelp.jpg" alt="" class="img-fluid"/>
             </div>
             <div class="col-lg-6 mt-3">
-                <h1 class="header-title">Buy Google Reviews</h1>
+                <h1 class="header-title">Buy Yelp Reviews</h1>
                 <p class="description">
                     4.7 / 5
                     <span>
@@ -53,45 +57,62 @@
                     10 Customer reviews
                 </p>
                 <p class="description">
-                    Buy 5-star country targeted Google reviews to increase the credibility of your brand and
-                    enhance its online presence.
+                    Buy Yelp Reviews with Fast Delivery
                 </p>
-                <div class="mb-3 description">
-                    <label class="form-label">Select Google Reviews Type *</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Open this select menu</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                    </select>
-                </div>
-                <div class="mb-3 description">
-                    <label class="form-label">Select target country *</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Open this select menu</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                    </select>
-                </div>
-                <div class="mb-3 description">
-                    <label class="form-label">Enter Custom Reviews *</label>
-                    <textarea class="form-control" rows="3"></textarea>
-                </div>
-                <div class="mb-3 description">
-                    <label class="form-label">Enter Google My Business/Google Maps URL *</label>
-                    <input type="email" class="form-control" placeholder="https://">
-                </div>
-                <div class="mb-3">
+                <form method="post" action="form_submit.php">
                     <div class="row">
-                        <div class="d-grid col-6">
-                            <button type="button" class="btn btn-primary btn-lg box-caption">Add to Cart</button>
+                        <div class="mb-3 description col-6">
+                            <label class="form-label">Email</label>
+                            <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
                         </div>
-                        <div class="d-grid col-6">
-                            <button type="button" class="btn btn-secondary btn-lg box-caption">Buy Now</button>
+                        <div class="mb-3 description col-6">
+                            <label class="form-label">Contact Number</label>
+                            <input type="text" name="number" class="form-control" placeholder="XXXX" required>
                         </div>
                     </div>
-                </div>
+                    <div class="row">
+                        <div class="mb-3 description col-6">
+                            <label class="form-label">Select Google Reviews Type *</label>
+                            <select class="form-select" name="star" aria-label="Default select example" required>
+                                <option selected>Select Number of Stars</option>
+                                <option value="1">One</option>
+                                <option value="5">Five</option>
+                            </select>
+                        </div>
+                        <div class="mb-3 description col-6">
+                            <label class="form-label">Select target country *</label>
+                            <select class="form-select" name="country" aria-label="Default select example" required>
+                                <option selected>Select the Targeted Country</option>
+                                <option value="us">US</option>
+                                <option value="uk">UK</option>
+                                <option value="canada">Canada</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mb-3 description">
+                        <label class="form-label">No. of Review</label>
+                        <input type="text" name="number_of_review" class="form-control" placeholder="XXXX" required>
+                    </div>
+                    <div class="mb-3 description">
+                        <label class="form-label">Enter Custom Reviews *</label>
+                        <textarea class="form-control" name="message" rows="3" required></textarea>
+                    </div>
+                    <div class="mb-3 description">
+                        <label class="form-label">Enter Google My Business/Google Maps URL *</label>
+                        <input type="text" name="url" class="form-control" placeholder="https://" required>
+                    </div>
+                    <input type="hidden" name="page" class="form-control" value="yelp">
+                    <div class="mb-3">
+                        <div class="row">
+                            <div class="d-grid col-6">
+                                <button type="button" class="btn btn-primary btn-lg box-caption">Add to Cart</button>
+                            </div>
+                            <div class="d-grid col-6">
+                                <button type="submit" name="submit" class="btn btn-secondary btn-lg box-caption">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -102,19 +123,39 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1 class="header-title">
-                    Buy Google Reviews
+                    What’s the Big Deal with Yelp Reviews?
                 </h1>
             </div>
             <div class="col-lg-12 mt-3 description">
-                These days, each and every online mention of your business or brand name makes a difference. Though it
-                has to be
-                said that when the aim is to stand out for all the right reasons, positive reviews really are
-                everything.
-                Precisely why those who buy Google My Business Reviews often gain a major edge over their competitors.
-                If you’re
-                serious about making a name for yourself in any niche whatsoever, making the decision to buy Google
-                Reviews
-                might not be quite as crazy as it sounds.
+                <p>
+                    Yelp: you probably still use it for sharing images and videos with your friends and family and
+                    showing people what you ate for breakfast.
+                </p>
+                <p>
+                    Your mom is probably on there commenting and liking every post you put up, and you kind of see it as
+                    one of those dying social media platforms that isn’t really going anywhere.
+                </p>
+                <p>
+                    However, we are here to argue that the opposite is true. Yes, there are other social media platforms
+                    out there that have been developed since Yelp got its start back a decade ago, but this definitely
+                    doesn’t mean that Yelp is irrelevant.
+                </p>
+                <p>
+                    In fact, Yelp was one of the pioneers of social media marketing, and almost every brand out there,
+                    both big and small, has a presence on Yelp. If you have a brand yourself, then you might want to
+                    think about creating a Yelp business page for it.
+                </p>
+                <p>
+                    Once you’ve done this, your main focus is probably going to be on Yelp Reviews. You love checking in
+                    on your personal Yelp every day and seeing if anyone new has friend requested you, so you probably
+                    will apply the same logic to a Yelp business page. Yes, your Reviews on your Yelp business page are
+                    also important, but so are your Yelp Reviews.
+                </p>
+                <p>
+                    In fact, the more likes that you have on the content that you put on your Yelp business page, the
+                    more likely you are to be seen by more of your target audience. The bottom line is that you
+                    shouldn’t underestimate the power of Yelp Reviews, especially when it comes to your brand.
+                </p>
             </div>
         </div>
     </div>
@@ -124,33 +165,37 @@
     <div class="container pt-5 pb-5">
         <div class="row">
             <div class="col-lg-4 mt-2">
-                <img src="assets/img/review/buy-5-star-google-reviews.jpg" alt="" class="img-fluid"/>
+                <img src="assets/img/review/yelp-buy-positive.jpg" alt="" class="img-fluid"/>
             </div>
             <div class="col-lg-8 mt-2 description">
-                <h1 class="header-title">Who Needs Google Reviews?</h1>
+                <h1 class="header-title">Why Do People Buy Yelp Reviews?</h1>
                 <p>
-                    As for why you need Google Reviews, the importance of the whole thing and downs to two key points:
-                </p>
-                <ul>
-                    <li>
-                        You need positive reviews to send the right message.
-                    </li>
-                    <li>
-                        You need to rank prominently in the SERP rankings.
-                    </li>
-                </ul>
-                <p>
-                    Both of which can be achieved with a decent contingency of reviews to back you up. For obvious
-                    reasons, Google pays close attention to Google Business Reviews. Play your cards right with Google
-                    and you’ve every chance of climbing to a more prominent position. But what really makes the
-                    difference is that when you buy Google Business Reviews, you’re exponentially more likely to be
-                    taken seriously by your target audience.
+                    So, why would people choose to buy their Yelp Reviews? Well, one reason could be because they want
+                    to find a way to save time and streamline their engagement strategy. If they have been trying to
+                    grow their brand on Yelp for a while, they probably have a Yelp business page, and have set up a few
+                    links, so that you can be redirected to their website.
                 </p>
                 <p>
-                    In fact, not backing up your promises and assurances with plenty of reviews means running the risk
-                    of being overlooked entirely. These days, consumers worldwide just aren’t willing to risk their
-                    time and money on businesses that haven’t been verified by other consumers. When you buyReviews,
-                    you buy this exact verification.
+                    However, they probably haven’t worked out exactly how their engagement strategy works, or what a
+                    good one looks like. The thing about your Yelp engagement strategy is that it can be complicated and
+                    difficult to develop, especially considering Yelp’s algorithm is changing all the time.
+                </p>
+                <p>
+                    What might have worked in terms of your engagement strategy for Yelp last week, might not be working
+                    now, and this could be completely out of your control. So, one of the biggest reasons why people
+                    choose to outsource their Yelp Reviews is to save time. When they have professionals in the social
+                    media marketing industry taking care of their engagement strategy, they can breathe a sigh of
+                    relief, and spend all their time focusing on their Yelp content instead.
+                </p>
+                <p>
+                    In a world where time is money, this is going to ultimately save you a lot of time, and it is also
+                    going to help you increase your profit. If you are spending too much time on your engagement
+                    strategy and making sure that it is perfect, you could be wasting days, weeks, and even months of
+                    time that could be spent making a profit and connecting the right people to your product or service.
+                </p>
+                <p>
+                    We think that people who choose to buy their Yelp Reviews are smart, savvy, and know exactly what
+                    their Yelp business page needs to do really well.
                 </p>
             </div>
         </div>
@@ -162,36 +207,43 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1>
-                    Why Should I Buy Google Reviews for My Business?
+                    What’s the Issue with Fake Yelp Reviews?
                 </h1>
             </div>
             <div class="col-lg-12 mt-3">
                 <p>
-                    Given the fact that you’re reading this right now, you probably don’t already have a vast archive of
-                    Google Reviews to
-                    support your business. It could be that you’re yet to accumulate much feedback at all, or that your
-                    image has been
-                    tarnished with negative feedback - justified or otherwise. In both instances, there are two
-                    important things you need to
-                    bear in mind:
+                    We have probably got you in a place right now where you are keen to check out what’s going on in the
+                    world of social medial marketing, and how you can leverage companies out there to help you buy Yelp
+                    Reviews in a way that is going to be beneficial to your Yelp business page.
                 </p>
-                <ul>
-                    <li>
-                        At least 80% of consumers now use reviews to guide their decisions.
-                    </li>
-                    <li>
-                        95% of all online activities begin with a web search of some kind.
-                    </li>
-                </ul>
                 <p>
-                    Given the above, buying Google Reviews for your business makes perfect sense. Rather than waiting
-                    for the positive
-                    reviews you need to accumulate organically, you buy Google My Business Reviews from a trusted source
-                    and set the wheels
-                    in motion. Your audience sees your positive reviews, trusts what you have to say and takes an
-                    interest in you. Far
-                    better than being overlooked and ignored, simply because you haven’t accumulated many Google
-                    Reviews.
+                    However, we do have to put forth a disclaimer at this point and say that we don’t suggest that you
+                    just go for the first company that you come across.
+                </p>
+                <p>
+                    You might already be doing a Yelp search right now in the hopes of finding a company that can help
+                    you almost instantly.
+                </p>
+                <p>
+                    However, we recommend that you put on the brakes. This is because the social media marketing
+                    industry is as unregulated as it gets, meaning that nobody is checking in to make sure that
+                    companies are doing good by their clients and upholding their alleged reputation.
+                </p>
+                <p>
+                    This leaves the door wide open to scams and fake likes. So, what are fake Yelp Reviews? Well, they
+                    are likes that have been produced by a fake Yelp profile and sent to you with the purpose of simply
+                    making your content look good.
+                </p>
+                <p>
+                    Of course, we all want our content to look good to potential audiences, but at the end of the day,
+                    this look is going to be temporary and only superficial. Fake likes might make your content look
+                    really good for a couple of days but after this, there is a really high chance of it falling off
+                    again, and ultimately your existing audience is going to wonder whether you’re legit or not.
+                </p>
+                <p>
+                    They will start to get suspicious, and they wonder whether you are taking shortcuts in order to
+                    advance your brand. Yelp also doesn’t like it when their users buy fake engagement because it goes
+                    against their terms of use.
                 </p>
             </div>
         </div>
@@ -202,33 +254,40 @@
     <div class="container pt-5 pb-5">
         <div class="row">
             <div class="col-lg-8 mt-2 description">
-                <h1 class="header-title">Does Buying Google Reviews Actually Work?</h1>
+                <h1 class="header-title">What a Scam Company Looks Like?</h1>
                 <p>
-                    Not only does it work, but it works in two important ways. As outlined a little earlier, stacking up
-                    plenty of Google
-                    Business Reviews is about both sending the right message and climbing the search engine results page
-                    rankings.
+                    So, we have put a little seed of doubt in your mind about buying Yelp Reviews, but the reality is
+                    that there are plenty of companies out there that have more than enough of a reputation for you to
+                    feel confident about buying your Yelp Reviews.
                 </p>
                 <p>
-                    When you buy Google Reviews, those who come across your business are immediately impressed by the
-                    positive feedback
-                    you’ve received. Google also takes note of your positive reviews, ensuring you’re positioned
-                    prominently for appropriate
-                    search terms.
+                    Let’s continue on with our mission to expose companies that are scams though and tell you all about
+                    what you need to look out for when trying to nail down the right company for your engagement. A scam
+                    company is going to have very little security when it comes to their website, because they won’t be
+                    thinking about the long-term of their clients.
                 </p>
                 <p>
-                    All of which makes up easy to find and easy to trust - all from a comparatively inexpensive
-                    investment. Now more than
-                    ever, getting by without positive feedback (and plenty of it) simply isn’t an option.
+                    They ultimately just want to make a quick profit and get their engagement off the shelf as quickly
+                    as possible, so they aren’t really interested in encrypting their website so that their clients can
+                    safely surf their web pages without compromising personal information.
                 </p>
                 <p>
-                    Hence, if you’re serious about climbing the rankings and presenting yourself as both trustworthy and
-                    credible, you need
-                    as many Google Reviews as you can lay your hands on.
+                    They might have made sure to secure their website with HTTPS, but this is as far as they will go.
+                    They won’t have secured any payment gateways, and they also won’t have an accountability form for
+                    you to fill out. Another way to tell whether a company is a scam or not is to look at their pricing.
+                </p>
+                <p>
+                    Most of the time, companies that are offering their clients fake Yelp Reviews will offer them at
+                    bottom-of-the-barrel prices. You might be blown away at first because you will find it hard to
+                    believe that it’s going to cost you this little to purchase your Yelp Reviews, but we highly
+                    recommend that you avoid what you might consider to be a good deal.
+                </p>
+                <p>
+                    It’s much better to pay little bit more and get much higher quality features.
                 </p>
             </div>
             <div class="col-lg-4 mt-2">
-                <img src="assets/img/review/google-buy-verified.jpg" alt="" class="img-fluid"/>
+                <img src="assets/img/review/yelp-buy-verified.jpg" alt="" class="img-fluid"/>
             </div>
         </div>
     </div>
@@ -238,7 +297,7 @@
     <div class="container pt-5 pb-5">
         <div class="row text-center">
             <div class="col-lg-12">
-                <h1 class="header-title">Our Buy Google Reviews FAQ</h1>
+                <h1 class="header-title">Our Buy Yelp Reviews FAQ</h1>
                 <p class="header-caption">
                     Have questions? Get the inside scoop on the most frequently asked
                 </p>
@@ -251,7 +310,7 @@
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button box-caption" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Should You Buy Google Reviews?
+                                Should You Buy Yelp Reviews?
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
@@ -260,12 +319,12 @@
                                 <p>
                                     The way people discover and listen to music has changed drastically in the past 20
                                     years, and there is now plenty of possibility to expand your musical network only
-                                    using social media sites. Google is the global leader in social media for music,
+                                    using social media sites. Yelp is the global leader in social media for music,
                                     with about 185 million monthly active users on the platform.
                                 </p>
                                 <p>
                                     If you’re a musician and are passionate about your craft and getting it out to your
-                                    fans and listeners, it’s pretty much a necessity to have your content up on Google.
+                                    fans and listeners, it’s pretty much a necessity to have your content up on Yelp.
                                     If you don’t, you’ll be missing out on the most streamlined way for your music to
                                     get heard.
                                 </p>
@@ -280,7 +339,7 @@
                                     because there are thousands of competitors out there doing the same thing.
                                 </p>
                                 <p>
-                                    With Google being so popular, anyone who wants to expand their music career and
+                                    With Yelp being so popular, anyone who wants to expand their music career and
                                     make something of their music is on the platform and it’s become filled with
                                     up-and-coming artists as well as famous, heavy-hitting ones. You’ve got to put in
                                     the work to get noticed, and even potentially signed by an agency. It’s not
@@ -294,39 +353,39 @@
                             <button class="accordion-button collapsed box-caption" type="button"
                                     data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Benefits of Buying Google Reviews
+                                Benefits of Buying Yelp Reviews
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                              data-bs-parent="#accordionExample">
                             <div class="accordion-body description">
                                 <p>
-                                    There are plenty of reasons why people buy Google reviews. When you are passionate
+                                    There are plenty of reasons why people buy Yelp reviews. When you are passionate
                                     about your music, you want people to hear it and you want to be able to spend as
                                     much time on creating it and sharing it as possible.
                                 </p>
                                 <p>
-                                    Google makes things easier, but at the same time makes things harder because there
+                                    Yelp makes things easier, but at the same time makes things harder because there
                                     are so many people trying to do exactly the same thing. When you try to build your
-                                    Google reviews on your own, the process is long and tedious, and you can miss out on
+                                    Yelp reviews on your own, the process is long and tedious, and you can miss out on
                                     a lot of opportunities by not having a high number or reviews to get noticed.
                                 </p>
                                 <p>
-                                    For that reason, many people have decided to buy Google reviews to help define their
+                                    For that reason, many people have decided to buy Yelp reviews to help define their
                                     image and perpetuate more reviews. When you have reviews, people are more likely to play
                                     your track because it already has some level of authority.
                                 </p>
                                 <p>
                                     You ultimately have two choices— wait it out and hope your music gets played, or buy
-                                    Google reviews which will effectively bring you a reliable solution to start your
-                                    Google growth and popularity.
+                                    Yelp reviews which will effectively bring you a reliable solution to start your
+                                    Yelp growth and popularity.
                                 </p>
                                 <p>
                                     Your target audience is much more likely to see and be tempted to listen to your
-                                    tracks when they have more reviews. Purchasing Google reviews is totally legal and a
+                                    tracks when they have more reviews. Purchasing Yelp reviews is totally legal and a
                                     great way to boost your account’s visibility and popularity, but you have to make
                                     sure that you buy from a company that isn’t just out to turn a profit, selling fake
-                                    Google reviews and bots that can hurt your account health.
+                                    Yelp reviews and bots that can hurt your account health.
                                 </p>
                             </div>
                         </div>
@@ -336,22 +395,22 @@
                             <button class="accordion-button collapsed box-caption" type="button"
                                     data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                More Google Reviews = Better Algorithm Performance
+                                More Yelp Reviews = Better Algorithm Performance
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                              data-bs-parent="#accordionExample">
                             <div class="accordion-body description">
                                 <p>
-                                    Google uses search rankings to promote music that people should listen to, and when
+                                    Yelp uses search rankings to promote music that people should listen to, and when
                                     a user searches for something, you’re likely to stand out in the search rankings,
-                                    which means you’re doing well in terms of the Google algorithm.
+                                    which means you’re doing well in terms of the Yelp algorithm.
                                 </p>
                                 <p>
-                                    If you have high search rankings, your music will become more visible to Google
+                                    If you have high search rankings, your music will become more visible to Yelp
                                     users, which is exactly what you need to get more reviews and more fans. Buying
-                                    Google reviews can help you to get better rankings because you need to have reviews so
-                                    that the Google algorithm can identify your account as valuable to the music
+                                    Yelp reviews can help you to get better rankings because you need to have reviews so
+                                    that the Yelp algorithm can identify your account as valuable to the music
                                     community.
                                 </p>
                             </div>
@@ -362,27 +421,27 @@
                             <button class="accordion-button collapsed box-caption" type="button"
                                     data-bs-toggle="collapse"
                                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                High Numbers of Google Reviews Gives You Authority
+                                High Numbers of Yelp Reviews Gives You Authority
                             </button>
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                              data-bs-parent="#accordionExample">
                             <div class="accordion-body description">
                                 <p>
-                                    Your Google account will be more legit when you have more Google reviews— people
+                                    Your Yelp account will be more legit when you have more Yelp reviews— people
                                     will take you more seriously and they will consider you to have some type of musical
                                     authority in your genre and within the musical community.
                                 </p>
                                 <p>
-                                    If you pop over to a musician’s Google profile and notice their music only has
+                                    If you pop over to a musician’s Yelp profile and notice their music only has
                                     about 15 reviews and a few followers, you’re likely to reconsider and check out
                                     someone else’s. Only a few engagements makes your profile look less established and
                                     novice.
                                 </p>
                                 <p>
                                     People want to be a part of something and when you have a lot of followers and reviews
-                                    on Google, they want to see what all the fuss is about. You need reviews to be seen,
-                                    but you need to be seen to get reviews. This is where buying Google reviews can help
+                                    on Yelp, they want to see what all the fuss is about. You need reviews to be seen,
+                                    but you need to be seen to get reviews. This is where buying Yelp reviews can help
                                     you get the process started and give you the authority needed to attract more
                                     listeners.
                                 </p>
@@ -394,20 +453,20 @@
                             <button class="accordion-button collapsed box-caption" type="button"
                                     data-bs-toggle="collapse"
                                     data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                Having More Google Reviews Helps You Compete
+                                Having More Yelp Reviews Helps You Compete
                             </button>
                         </h2>
                         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                              data-bs-parent="#accordionExample">
                             <div class="accordion-body description">
                                 <p>
-                                    With so much competition on Google, you need to make sure that you stay a cut above
-                                    the rest. When you buy Google reviews, you can compete with bigger profiles and other
+                                    With so much competition on Yelp, you need to make sure that you stay a cut above
+                                    the rest. When you buy Yelp reviews, you can compete with bigger profiles and other
                                     popular accounts in your genre, helping you to stay relevant and get noticed by
                                     people despite the competition.
                                 </p>
                                 <p>
-                                    It also helps to speed up the growth of your Google by perpetuating more reviews
+                                    It also helps to speed up the growth of your Yelp by perpetuating more reviews
                                     through your reputation, getting you notoriety in comparison to your competitors.
                                 </p>
                             </div>
@@ -418,7 +477,7 @@
                             <button class="accordion-button collapsed box-caption" type="button"
                                     data-bs-toggle="collapse"
                                     data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                Should I Buy Google Reviews?
+                                Should I Buy Yelp Reviews?
                             </button>
                         </h2>
                         <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
@@ -428,18 +487,18 @@
                                     So, the question remains— to buy, or not to buy?
                                 </p>
                                 <p>
-                                    Buying Google reviews will give your profile an instant boost and help you to get
+                                    Buying Yelp reviews will give your profile an instant boost and help you to get
                                     things moving so that you can continue to grow naturally. It’s one of the best ways
                                     to help get your profile recognized and rank higher, so it’s a great idea.
                                 </p>
                                 <p>
-                                    Before you buy, though, remember— not all Google reviews are created equal, and if
+                                    Before you buy, though, remember— not all Yelp reviews are created equal, and if
                                     you buy fakes or bots, they may end up hurting your account.
                                 </p>
                                 <p>
                                     Reputationdealer knows this and we do everything you can to make sure we provide you with
                                     real, safe, and effective services, but not all companies are the same. Here are
-                                    some things you need to check for when buying Google reviews.
+                                    some things you need to check for when buying Yelp reviews.
                                 </p>
                             </div>
                         </div>
@@ -505,7 +564,7 @@
                             <div class="accordion-body description">
                                 <p>
                                     If a company has just popped up on the market, they may not have the experience
-                                    necessary to be able to provide real and valuable Google engagements. Make sure
+                                    necessary to be able to provide real and valuable Yelp engagements. Make sure
                                     that the company is reputable and has reviews to back their services up.
                                 </p>
                             </div>
@@ -539,14 +598,14 @@
                                     data-bs-toggle="collapse"
                                     data-bs-target="#collapseEleven" aria-expanded="false"
                                     aria-controls="collapseEleven">
-                                Will I Get Banned if I Buy Google Reviews?
+                                Will I Get Banned if I Buy Yelp Reviews?
                             </button>
                         </h2>
                         <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
                              data-bs-parent="#accordionExample">
                             <div class="accordion-body description">
                                 <p>
-                                    No, you won’t be banned for buying Google reviews. You have to ensure, though, that
+                                    No, you won’t be banned for buying Yelp reviews. You have to ensure, though, that
                                     you buy from a company that maintains the integrity of your account and doesn’t fill
                                     your profile up with spam and fakes.
                                 </p>
@@ -567,13 +626,13 @@
                             <div class="accordion-body description">
                                 <p>
                                     If you buy a package of, let’s say, 100k reviews, it’s going to be pretty clear that
-                                    this isn’t authentic, and it could get you in trouble or cause Google to raise some
+                                    this isn’t authentic, and it could get you in trouble or cause Yelp to raise some
                                     eyebrows.
                                 </p>
                                 <p>
-                                    If this order is delivered gradually and dripped onto your Google naturally, you
+                                    If this order is delivered gradually and dripped onto your Yelp naturally, you
                                     can buy in larger packages, but if you get a package with instant delivery dropping
-                                    high numbers of reviews onto your Google, something may look fishy.
+                                    high numbers of reviews onto your Yelp, something may look fishy.
                                 </p>
                             </div>
                         </div>
@@ -584,20 +643,20 @@
                                     data-bs-toggle="collapse"
                                     data-bs-target="#collapseThirteen" aria-expanded="false"
                                     aria-controls="collapseThirteen">
-                                Have a Separate Google Strategy
+                                Have a Separate Yelp Strategy
                             </button>
                         </h2>
                         <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen"
                              data-bs-parent="#accordionExample">
                             <div class="accordion-body description">
                                 <p>
-                                    Buying Google reviews is a great way to get your growth moving and get more people
+                                    Buying Yelp reviews is a great way to get your growth moving and get more people
                                     listening to your music, but it shouldn’t be the only strategy you have to gain more
                                     popularity on the platform.
                                 </p>
                                 <p>
                                     Continue sharing your music on multiple social media networks, engage with other
-                                    artists and listeners, optimize your Google profile to look as professional and
+                                    artists and listeners, optimize your Yelp profile to look as professional and
                                     organized as possible, and keep working hard to put out quality music that people
                                     truly want to listen to.
                                 </p>
@@ -610,18 +669,18 @@
                                     data-bs-toggle="collapse"
                                     data-bs-target="#collapseFourteen" aria-expanded="false"
                                     aria-controls="collapseFourteen">
-                                Buy Google Reviews
+                                Buy Yelp Reviews
                             </button>
                         </h2>
                         <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen"
                              data-bs-parent="#accordionExample">
                             <div class="accordion-body description">
                                 <p>
-                                    Buying Google reviews from a reputable and trustworthy company like Reputationdealer can be
-                                    just what you need to supercharge your Google growth and get more people listening
+                                    Buying Yelp reviews from a reputable and trustworthy company like Reputationdealer can be
+                                    just what you need to supercharge your Yelp growth and get more people listening
                                     to your music. Check out our FAQ to get more info, have a look at our packages, and
                                     feel free to reach out if you have any questions at all! We wish you all the best on
-                                    your quest for Google growth and want to help you get your music out to the world.
+                                    your quest for Yelp growth and want to help you get your music out to the world.
                                 </p>
                             </div>
                         </div>
@@ -962,52 +1021,9 @@
     </div>
 </section>
 
-<footer class="bg-custom-dark text-white">
-    <div class="container pt-2 pb-5">
-        <div class="row">
-            <div class="col-lg-12 mt-3">
-                <ul class="nav box-caption justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Reviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">FAQ</a>
-                    </li>
-                </ul>
-                <p class="mt-3 mb-3 description">
-                    We specialize in growing Social Media pages and helping businesses increase the amount of
-                    engagements on their Social Media page. We’re one of the few companies that guarantee our service
-                    and that will provide lasting, effective results for you and your page.
-                </p>
-                <p class="description"><strong>Terms & Conditions</strong></p>
-            </div>
-        </div>
-        <div class="row mt-3">
-            <div class="col-lg-12 description">
-                <p>
-                    Reputationdealer is in no way associated or affiliated with YouTube, Twitter, Snapchat, Facebook,
-                    Pinterest, Google, Instagram, Vimeo, Tumblr, Dailymotion, LinkedIn, Google, Reddit, Discord,
-                    TikTok, SoundCloud, Clubhouse, Mixcloud, VK, Telegram, Trustpilot, Twitch, IMDb, Quora, etc. All the
-                    TMs. Logos and Brand Names belong to their respective owner and we don't establish any claim or
-                    ownership of it.
-                </p>
-                <p>
-                    We strictly adhere to the community rules and guidelines set by the above said websites and brands.
-                </p>
-            </div>
-            <div class="col-lg-12 mt-3 text-center">
-                <img src="assets/img/cre.png" class="img-fluid" alt=""/>
-                <p class="box-caption">© Copyright 2022, Reputationdealer, All Rights Reserved.</p>
-            </div>
-        </div>
-    </div>
-</footer>
+<?php
+include ("includes/footer.php");
+?>
 
 <!-- Bootstrap Bundle with Popper -->
 <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>

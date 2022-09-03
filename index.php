@@ -22,39 +22,12 @@
 </head>
 <body>
 <!-- NAV Bar Start -->
-<header class="bg-custom-dark box-caption">
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-custom-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Reputationdealer</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Reviews</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">FAQ</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
-</header>
+<?php
+include("includes/navbar.php");
+?>
 <!-- NAV Bar End -->
 
-<section class="bg-custom-white">
+<section class="bg-custom-white" id="services">
     <div class="container pt-5 pb-5">
         <div class="row text-center">
             <div class="col-lg-12">
@@ -66,27 +39,31 @@
             <div class="col-lg-2">
             </div>
             <div class="col-lg-4 mt-3">
-                <div class="card">
-                    <div class="card-body d-flex justify-content-center align-items-center">
-                        <div>
-                            <img src="assets/img/icon/google.png" class="img-fluid" alt=""
-                                 style="height: 25px;float:left;"/>
-                            <h5 class="card-title ms-3 ps-3" onclick="window.location.href='google.html';">Google</h5>
+                <a href="google.php" style="text-decoration: none; color: black;">
+                    <div class="card">
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <div>
+                                <img src="assets/img/icon/google.png" class="img-fluid" alt=""
+                                     style="height: 25px;float:left;"/>
+                                <h5 class="card-title ms-3 ps-3">Google</h5>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-lg-4 mt-3 text-center">
-                <div class="card">
-                    <div class="card-body d-flex justify-content-center align-items-center">
-                        <div>
-                            <img src="assets/img/icon/trustpilot.svg" class="img-fluid" alt=""
-                                 style="height: 25px;float:left;"/>
-                            <h5 class="card-title ms-3 ps-3" onclick="window.location.href='trustpilot.html';">
-                                Trustpilot</h5>
+                <a href="trustpilot.php" style="text-decoration: none; color: black;">
+                    <div class="card">
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <div>
+                                <img src="assets/img/icon/trustpilot.svg" class="img-fluid" alt=""
+                                     style="height: 25px;float:left;"/>
+                                <h5 class="card-title ms-3 ps-3">
+                                    Trustpilot</h5>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-lg-2">
             </div>
@@ -95,25 +72,31 @@
             <div class="col-lg-2">
             </div>
             <div class="col-lg-4 mt-3 text-center">
-                <div class="card">
-                    <div class="card-body d-flex justify-content-center align-items-center">
-                        <div>
-                            <img src="assets/img/icon/facebook.png" class="img-fluid" alt=""
-                                 style="height: 25px;float:left;"/>
-                            <h5 class="card-title ms-3 ps-3" onclick="window.location.href='facebook.html';">Facebook</h5>
+                <a href="facebook.php" style="text-decoration: none; color: black;">
+                    <div class="card">
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <div>
+                                <img src="assets/img/icon/facebook.png" class="img-fluid" alt=""
+                                     style="height: 25px;float:left;"/>
+                                <h5 class="card-title ms-3 ps-3">
+                                    Facebook</h5>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-lg-4 mt-3 text-center">
-                <div class="card">
-                    <div class="card-body d-flex justify-content-center align-items-center">
-                        <div>
-                            <img src="assets/img/icon/yelp.svg" class="img-fluid" alt="" style="height: 25px;float: left"/>
-                            <h5 class="card-title ms-3 ps-3" onclick="window.location.href='yelp.html';">Yelp</h5>
+                <a href="yelp.php" style="text-decoration: none; color: black;">
+                    <div class="card">
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <div>
+                                <img src="assets/img/icon/yelp.svg" class="img-fluid" alt=""
+                                     style="height: 25px;float: left"/>
+                                <h5 class="card-title ms-3 ps-3">Yelp</h5>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-lg-2">
             </div>
@@ -127,7 +110,7 @@
     </div>
 </section>
 
-<section class="bg-custom-light">
+<section class="bg-custom-light" id="features">
     <div class="container pt-5 pb-5">
         <div class="row text-center">
             <div class="col-lg-12">
@@ -141,28 +124,25 @@
             <div class="col-lg-6 mt-3 description">
                 <h6 class="text-blue"><strong>Get Found Online</strong></h6>
                 <p>
-                    More reviews equals a higher ranking on Google, Yelp, Facebook, and any industry-specific review
-                    sites where your customers shop. With Engage, you can quickly acquire More 5-Star Reviews from your
-                    Customers with our automated technology and our 1-Click Review Feature.
+                    More reviews mean higher rankings on Google, Yelp, Facebook and any industry review site your
+                    customers shop on. With Engage, you can quickly get more 5-star reviews from your customers with our
+                    automated technology and 1-click review feature.
                 </p>
                 <h6 class="text-blue"><strong>Be The Easy Choice</strong></h6>
                 <p>
-                    Did you know 94% of customers will not even consider a business with a low-star rating or that has
-                    very few reviews? We make sure you have more fresh 5-star reviews than all of your competitors so
-                    that you're the obvious choice to consumers who are searching for your products/services online.
+                    Did you know that 94% of customers won't even consider a business with a low star rating or very few
+                    reviews? We make sure you have more new 5-star reviews than any of your competitors, so you're the
+                    obvious choice for consumers looking for your products/services online.
                 </p>
                 <h6 class="text-blue"><strong>Increase Satisfaction & Referrals</strong></h6>
                 <p>
-                    We help you connect with your customers to increase customer satisfaction, repeat business, and
-                    genuine referrals. And the best part is, it's all AUTOMATED!
+                    We help you connect with your customers to increase customer satisfaction, repeat business, and real
+                    referrals. And the best thing is, everything is AUTOMATED!
                 </p>
             </div>
         </div>
         <div class="row mt-3 text-center">
             <div class="col-lg-12">
-                <h6 class="box-caption">
-                    <a href="#">Features</a> | <a href="#">Pricing</a> | <a href="#">Testimonials</a>
-                </h6>
                 <button type="button" class="btn btn-primary btn-lg box-caption custom-button">REQUEST INFO</button>
             </div>
         </div>
@@ -204,7 +184,7 @@
     <div class="container pt-5 pb-5">
         <div class="row text-center">
             <div class="col-lg-12">
-                <h1 class="header-title">Let Us Make You The #1 Business in Your Market!</h1>
+                <h1 class="header-title">Our Clients Business Area</h1>
             </div>
         </div>
         <div class="row mt-5 text-center icon-title">
@@ -324,8 +304,10 @@
                     referrals. And the best part is, it's all AUTOMATED!
                 </h6>
             </div>
-            <div class="col-lg-2">
-
+            <div class="row mt-3 text-center">
+                <div class="col-lg-12">
+                    <button type="button" class="btn btn-primary btn-lg box-caption custom-button">REQUEST INFO</button>
+                </div>
             </div>
         </div>
     </div>
@@ -341,9 +323,9 @@
                            style="background-color: #bcd0c7;padding: 20px;border-radius: 50%"></i>
                         <h5 class="card-title mt-4 box-title">Select Package</h5>
                         <div class="card-text description">
-                            We offer a variety of different packages to give you the best value for Reviews. If you have
-                            a larger order or would
-                            like to discuss a customized plan to suit your needs, don’t hesitate to contact us!
+                            We offer a variety of different packages to give you the best value for your reviews. If you
+                            have a larger order or would like to discuss a custom plan that suits your needs, please
+                            feel free to contact us!
                         </div>
                     </div>
                 </div>
@@ -355,10 +337,9 @@
                            style="background-color: #bcd0c7;padding: 20px;border-radius: 50%"></i>
                         <h5 class="card-title mt-4 box-title">Enter Your Details</h5>
                         <div class="card-text description">
-                            We never require any sensitive information such as passwords or other secure info in order
-                            to deliver your Reviews.
-                            Simply provide us with your Reviews page link and your email we’ll get started with your
-                            order right away.
+                            We never require sensitive information such as passwords or other secure information to
+                            submit your reviews. Just give us the link to the review page and your email address and
+                            we'll start your order right away.
                         </div>
                     </div>
                 </div>
@@ -370,10 +351,9 @@
                            style="background-color: #bcd0c7;padding: 20px;border-radius: 50%"></i>
                         <h5 class="card-title mt-4 box-title">See The Results</h5>
                         <div class="card-text description">
-                            We never require any sensitive information such as passwords or other secure info in order
-                            to deliver your Reviews.
-                            Simply provide us with your Reviews page link and your email we’ll get started with your
-                            order right away.
+                            We never require sensitive information such as passwords or other secure information to
+                            submit your reviews. Just send us the link to the review page and your email address and
+                            we'll start your order right away.
                         </div>
                     </div>
                 </div>
@@ -382,27 +362,27 @@
     </div>
 </section>
 
-<section class="bg-custom-light">
+<section class="bg-custom-light" id="reviews">
     <div class="container pt-5 pb-5">
         <div class="row text-center">
             <div class="col-lg-12">
                 <h1 class="header-title">Read Our Customer Reviews</h1>
                 <p class="description">
-                    4.7/5.0
+                    4.8/5.0
                     <span>
-                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star" style="color: #00b67a"></i>
                     </span>
                     <span>
-                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star" style="color: #00b67a"></i>
                     </span>
                     <span>
-                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star" style="color: #00b67a"></i>
                     </span>
                     <span>
-                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star" style="color: #00b67a"></i>
                     </span>
                     <span>
-                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star" style="color: #00b67a"></i>
                     </span>
                     10 Customer Reviews
                 </p>
@@ -709,7 +689,7 @@
     </div>
 </section>
 
-<section class="bg-custom-white">
+<section class="bg-custom-white" id="faq">
     <div class="container pt-5 pb-5">
         <div class="row text-center">
             <div class="col-lg-12">
@@ -1005,55 +985,17 @@
                 </div>
             </div>
         </div>
+        <div class="row mt-3 text-center">
+            <div class="col-lg-12">
+                <button type="button" class="btn btn-primary btn-lg box-caption custom-button">REQUEST INFO</button>
+            </div>
+        </div>
     </div>
 </section>
 
-<footer class="bg-custom-dark text-white">
-    <div class="container pt-2 pb-5">
-        <div class="row">
-            <div class="col-lg-12 mt-3">
-                <ul class="nav box-caption justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Reviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">FAQ</a>
-                    </li>
-                </ul>
-                <p class="mt-3 mb-3 description">
-                    We specialize in growing Social Media pages and helping businesses increase the amount of
-                    engagements on their Social Media page. We’re one of the few companies that guarantee our service
-                    and that will provide lasting, effective results for you and your page.
-                </p>
-                <p class="description"><strong>Terms & Conditions</strong></p>
-            </div>
-        </div>
-        <div class="row mt-3">
-            <div class="col-lg-12 description">
-                <p>
-                    Reputationdealer is in no way associated or affiliated with YouTube, Twitter, Snapchat, Facebook,
-                    Pinterest, Spotify, Instagram, Vimeo, Tumblr, Dailymotion, LinkedIn, Google, Reddit, Discord,
-                    TikTok, SoundCloud, Clubhouse, Mixcloud, VK, Telegram, Trustpilot, Twitch, IMDb, Quora, etc. All the
-                    TMs. Logos and Brand Names belong to their respective owner and we don't establish any claim or
-                    ownership of it.
-                </p>
-                <p>
-                    We strictly adhere to the community rules and guidelines set by the above said websites and brands.
-                </p>
-            </div>
-            <div class="col-lg-12 mt-3 text-center">
-                <img src="assets/img/cre.png" class="img-fluid" alt=""/>
-                <p class="box-caption">© Copyright 2022, Reputationdealer, All Rights Reserved.</p>
-            </div>
-        </div>
-    </div>
-</footer>
+<?php
+include("includes/footer.php");
+?>
 
 <!-- Bootstrap Bundle with Popper -->
 <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>

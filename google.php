@@ -21,18 +21,24 @@
     <!-- Custom CSS -->
     <link href="assets/css/style.css" rel="stylesheet"/>
 
-    <title>Trustpilot Review | Reputationdealer</title>
+    <title>Google Review | Reputationdealer</title>
 </head>
 <body>
+
+<!-- NAV Bar Start -->
+<?php
+include("includes/navbar.php");
+?>
+<!-- NAV Bar End -->
 
 <section class="bg-custom-light">
     <div class="container pt-2 pb-5">
         <div class="row mt-2">
             <div class="col-lg-6 mt-3">
-                <img src="assets/img/review/trustpilot.jpg" alt="" class="img-fluid"/>
+                <img src="assets/img/review/google.jpg" alt="" class="img-fluid"/>
             </div>
             <div class="col-lg-6 mt-3">
-                <h1 class="header-title">Buy Trustpilot Reviews</h1>
+                <h1 class="header-title">Buy Google Reviews</h1>
                 <p class="description">
                     4.7 / 5
                     <span>
@@ -53,41 +59,63 @@
                     10 Customer reviews
                 </p>
                 <p class="description">
-                    Build a solid online presence for your business with Media Mister’s country-targeted custom
-                    Trustpilot reviews that are 100% authentic and safe.
+                    Buy 5-star country targeted Google reviews to increase the credibility of your brand and
+                    enhance its online presence.
                 </p>
+                <form method="post" action="form_submit.php">
+                    <div class="row">
+                        <div class="mb-3 description col-6">
+                            <label class="form-label">Email</label>
+                            <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+                        </div>
+                        <div class="mb-3 description col-6">
+                            <label class="form-label">Contact Number</label>
+                            <input type="text" name="number" class="form-control" placeholder="XXXX" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="mb-3 description col-6">
+                            <label class="form-label">Select Google Reviews Type *</label>
+                            <select class="form-select" name="star" aria-label="Default select example" required>
+                                <option selected>Select Number of Stars</option>
+                                <option value="1">One</option>
+                                <option value="5">Five</option>
+                            </select>
+                        </div>
+                        <div class="mb-3 description col-6">
+                            <label class="form-label">Select target country *</label>
+                            <select class="form-select" name="country" aria-label="Default select example" required>
+                                <option selected>Select the Targeted Country</option>
+                                <option value="us">US</option>
+                                <option value="uk">UK</option>
+                                <option value="canada">Canada</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mb-3 description">
+                        <label class="form-label">No. of Review</label>
+                        <input type="text" name="number_of_review" class="form-control" placeholder="XXXX" required>
+                    </div>
                 <div class="mb-3 description">
-                    <label class="form-label">Select Trustpilot Reviews Type *</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Open this select menu</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                    </select>
+                    <label class="form-label">Enter Custom Reviews *</label>
+                    <textarea class="form-control" name="message" rows="3" required></textarea>
                 </div>
                 <div class="mb-3 description">
-                    <label class="form-label">Select Star Ratings*</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Open this select menu</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                    </select>
+                    <label class="form-label">Enter Google My Business/Google Maps URL *</label>
+                    <input type="text" name="url" class="form-control" placeholder="https://" required>
                 </div>
-                <div class="mb-3 description">
-                    <label class="form-label">Enter Trustpilot Review URL* *</label>
-                    <input type="email" class="form-control" placeholder="https://">
-                </div>
+                    <input type="hidden" name="page" class="form-control" value="google">
                 <div class="mb-3">
                     <div class="row">
                         <div class="d-grid col-6">
                             <button type="button" class="btn btn-primary btn-lg box-caption">Add to Cart</button>
                         </div>
                         <div class="d-grid col-6">
-                            <button type="button" class="btn btn-secondary btn-lg box-caption">Buy Now</button>
+                            <button type="submit" name="submit" class="btn btn-secondary btn-lg box-caption">Buy Now</button>
                         </div>
                     </div>
                 </div>
+                </form>
             </div>
         </div>
     </div>
@@ -98,14 +126,19 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1 class="header-title">
-                    Buy Trustpilot Reviews
+                    Buy Google Reviews
                 </h1>
             </div>
             <div class="col-lg-12 mt-3 description">
-                It’s pretty safe to say that Trustpilot is the consumer feedback platform everyone has heard of. It’s
-                also the most trusted review platform of its kind, featuring millions of reviews and used by billions of
-                consumers worldwide. But in what instances would it be advisable to buy Trustpilot reviews? More
-                specifically, is it even safe to buy reviews on Trustpilot to enhance your image and appeal?
+                These days, each and every online mention of your business or brand name makes a difference. Though it
+                has to be
+                said that when the aim is to stand out for all the right reasons, positive reviews really are
+                everything.
+                Precisely why those who buy Google My Business Reviews often gain a major edge over their competitors.
+                If you’re
+                serious about making a name for yourself in any niche whatsoever, making the decision to buy Google
+                Reviews
+                might not be quite as crazy as it sounds.
             </div>
         </div>
     </div>
@@ -115,43 +148,33 @@
     <div class="container pt-5 pb-5">
         <div class="row">
             <div class="col-lg-4 mt-2">
-                <img src="assets/img/review/trustpilot-buy-positive.jpg" alt="" class="img-fluid"/>
+                <img src="assets/img/review/buy-5-star-google-reviews.jpg" alt="" class="img-fluid"/>
             </div>
             <div class="col-lg-8 mt-2 description">
-                <h1 class="header-title">Trustpilot by the Numbers</h1>
+                <h1 class="header-title">Who Needs Google Reviews?</h1>
                 <p>
-                    You need only consider a few basic statistics to understand the immense popularity and power of
-                    Trustpilot:
+                    As for why you need Google Reviews, the importance of the whole thing and downs to two key points:
                 </p>
                 <ul>
                     <li>
-                        More than 85 million reviews to date
+                        You need positive reviews to send the right message.
                     </li>
                     <li>
-                        360000 businesses reviewed
-                    </li>
-                    <li>
-                        3.5 billion total monthly impressions
-                    </li>
-                    <li>
-                        Ranked within the top 1% of all websites worldwide
+                        You need to rank prominently in the SERP rankings.
                     </li>
                 </ul>
                 <p>
-                    The simple fact of the matter being that when consumers are looking for information they can trust
-                    about a product, a service or a brand, they head to Trustpilot. Anyone can submit Trustpilot reviews
-                    about anything they like, helping others paint a picture of how trustworthy (or otherwise) the
-                    business in question is.
+                    Both of which can be achieved with a decent contingency of reviews to back you up. For obvious
+                    reasons, Google pays close attention to Google Business Reviews. Play your cards right with Google
+                    and you’ve every chance of climbing to a more prominent position. But what really makes the
+                    difference is that when you buy Google Business Reviews, you’re exponentially more likely to be
+                    taken seriously by your target audience.
                 </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 mt-2 description">
                 <p>
-                    A stellar reputation on Trustpilot can work wonders for your image, your appeal and your performance
-                    as a business. By contrast, a questionable reputation on Trustpilot can have catastrophic
-                    consequences. Precisely why it’s become commonplace for businesses to buy Trustpilot reviews, to
-                    help and steer things in the right direction.
+                    In fact, not backing up your promises and assurances with plenty of reviews means running the risk
+                    of being overlooked entirely. These days, consumers worldwide just aren’t willing to risk their
+                    time and money on businesses that haven’t been verified by other consumers. When you buyReviews,
+                    you buy this exact verification.
                 </p>
             </div>
         </div>
@@ -163,29 +186,36 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1>
-                    Why Buy Trustpilot Reviews?
+                    Why Should I Buy Google Reviews for My Business?
                 </h1>
             </div>
             <div class="col-lg-12 mt-3">
                 <p>
-                    There are two instances where it could be advisable and beneficial to buy reviews on Trustpilot. The
-                    first of which being to get your reputation up and running, if you don’t already have enough
-                    Trustpilot reviews to convince customers. Whether you’re a new business or you’re simply waiting for
-                    organic reviews to stack up, buying Trustpilot reviews can be a great way of setting the wheels in
-                    motion.
+                    Given the fact that you’re reading this right now, you probably don’t already have a vast archive of
+                    Google Reviews to
+                    support your business. It could be that you’re yet to accumulate much feedback at all, or that your
+                    image has been
+                    tarnished with negative feedback - justified or otherwise. In both instances, there are two
+                    important things you need to
+                    bear in mind:
                 </p>
+                <ul>
+                    <li>
+                        At least 80% of consumers now use reviews to guide their decisions.
+                    </li>
+                    <li>
+                        95% of all online activities begin with a web search of some kind.
+                    </li>
+                </ul>
                 <p>
-                    Conversely, you may have received a number of negative Trustpilot reviews that you believe are
-                    unfair or misleading. Irrespective of their origins and the motivations of those behind them,
-                    negative Trustpilot reviews can have devastating consequences. In which case, you may decide to buy
-                    Trustpilot reviews to restore some kind of balance.
-                </p>
-                <p>
-                    For each unfair negative review you receive, you could buy multiple positive reviews to turn things
-                    around. In all instances, it’s a case of using the power of positive PR to send the right message
-                    about your business. With such ferocious competition across all sectors and business areas, you
-                    can’t expect to get by with are anything but a glowing reputation and a high star rating on
-                    Trustpilot.
+                    Given the above, buying Google Reviews for your business makes perfect sense. Rather than waiting
+                    for the positive
+                    reviews you need to accumulate organically, you buy Google My Business Reviews from a trusted source
+                    and set the wheels
+                    in motion. Your audience sees your positive reviews, trusts what you have to say and takes an
+                    interest in you. Far
+                    better than being overlooked and ignored, simply because you haven’t accumulated many Google
+                    Reviews.
                 </p>
             </div>
         </div>
@@ -196,26 +226,33 @@
     <div class="container pt-5 pb-5">
         <div class="row">
             <div class="col-lg-8 mt-2 description">
-                <h1 class="header-title">Is It Safe to Buy Trustpilot Reviews?</h1>
+                <h1 class="header-title">Does Buying Google Reviews Actually Work?</h1>
                 <p>
-                    Let’s get one thing straight – the only thing worse than a bunch of negative reviews on Trustpilot
-                    is reviews that are clearly fake. If there’s even a single suspicious review on your Trustpilot
-                    profile, you can forget about it – all the positive reviews in the world won’t compensate.
+                    Not only does it work, but it works in two important ways. As outlined a little earlier, stacking up
+                    plenty of Google
+                    Business Reviews is about both sending the right message and climbing the search engine results page
+                    rankings.
                 </p>
                 <p>
-                    This is why it’s of the utmost importance to be strategic and careful when you pay for Trustpilot
-                    reviews. It’s perfectly possible to purchase Trustpilot reviews safely and in complete confidence,
-                    just as long as you do so via a trusted seller who knows what they’re doing.
+                    When you buy Google Reviews, those who come across your business are immediately impressed by the
+                    positive feedback
+                    you’ve received. Google also takes note of your positive reviews, ensuring you’re positioned
+                    prominently for appropriate
+                    search terms.
                 </p>
                 <p>
-                    Every review you buy should be 100% unique, 100% relevant to your business and 100% manually written
-                    by a skilled human writer. Nothing automated or bot generated – nothing that doesn’t come from an
-                    active and verified account with a real human owner. Just as long as you stick with these rules at
-                    all times, buying Trustpilot reviews can be safe.
+                    All of which makes up easy to find and easy to trust - all from a comparatively inexpensive
+                    investment. Now more than
+                    ever, getting by without positive feedback (and plenty of it) simply isn’t an option.
+                </p>
+                <p>
+                    Hence, if you’re serious about climbing the rankings and presenting yourself as both trustworthy and
+                    credible, you need
+                    as many Google Reviews as you can lay your hands on.
                 </p>
             </div>
             <div class="col-lg-4 mt-2">
-                <img src="assets/img/review/trustpilot-buy-verified.jpg" alt="" class="img-fluid"/>
+                <img src="assets/img/review/google-buy-verified.jpg" alt="" class="img-fluid"/>
             </div>
         </div>
     </div>
@@ -223,50 +260,9 @@
 
 <section class="bg-custom-white">
     <div class="container pt-5 pb-5">
-        <div class="row">
-            <div class="col-lg-12 mt-2 description">
-                <h1 class="header-title text-center">Why Buy Trustpilot Reviews from Reputation dealer ?</h1>
-                <p>
-                    For more than a decade, Media Mister has been providing an extensive range of premium-quality PR and
-                    marketing services at affordable prices. Most importantly, we understand and acknowledge the
-                    importance of safety and discretion. When you buy Trustpilot reviews from us, you buy 100% authentic
-                    reviews scripted by talented writers and submitted organically.
-                </p>
-                <p>
-                    The reviews we write are completely indistinguishable from the real thing and can be customised in
-                    any way you like. Just a few of our most popular packages of Trustpilot reviews available to order
-                    right now include the following:
-                </p>
-                <ul>
-                    <li>
-                        1 Trustpilot review delivered within 1-2 working days
-                    </li>
-                    <li>
-                        5 Trustpilot reviews delivered within 2-4 working days
-                    </li>
-                    <li>
-                        10 Trustpilot reviews delivered within 4-8 working days
-                    </li>
-                    <li>
-                        20 Trustpilot reviews delivered within 8-15 working days
-                    </li>
-                </ul>
-                <p>
-                    We can write random Trustpilot reviews on your behalf, or you can give the custom comments and we’ll
-                    ensure it’s included. Choose from 3-Star Trustpilot reviews, 4-Star Trustpilot reviews and 5-Star
-                    Trustpilot reviews – whatever it takes to send the right message to your audience. Place your order
-                    online in just a few clicks, or contact the Media Mister support team anytime for more information.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="bg-custom-light">
-    <div class="container pt-5 pb-5">
         <div class="row text-center">
             <div class="col-lg-12">
-                <h1 class="header-title">Our Buy Trustpilot Reviews FAQ</h1>
+                <h1 class="header-title">Our Buy Google Reviews FAQ</h1>
                 <p class="header-caption">
                     Have questions? Get the inside scoop on the most frequently asked
                 </p>
@@ -279,7 +275,7 @@
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button box-caption" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Should You Buy Trustpilot Reviews?
+                                Should You Buy Google Reviews?
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
@@ -288,13 +284,12 @@
                                 <p>
                                     The way people discover and listen to music has changed drastically in the past 20
                                     years, and there is now plenty of possibility to expand your musical network only
-                                    using social media sites. Trustpilot is the global leader in social media for music,
+                                    using social media sites. Google is the global leader in social media for music,
                                     with about 185 million monthly active users on the platform.
                                 </p>
                                 <p>
                                     If you’re a musician and are passionate about your craft and getting it out to your
-                                    fans and listeners, it’s pretty much a necessity to have your content up on
-                                    Trustpilot.
+                                    fans and listeners, it’s pretty much a necessity to have your content up on Google.
                                     If you don’t, you’ll be missing out on the most streamlined way for your music to
                                     get heard.
                                 </p>
@@ -302,15 +297,14 @@
                                     In the past, performing live was one of the best ways to get your music out there,
                                     but nowadays, people find out about new music that they’re interested in through
                                     streaming platforms online.
-                                </p>
-                                <p>
+
                                     The great thing about that is you have so many different opportunities to share your
                                     music as well as edit it to your liking and release a variety of different tracks so
                                     that people can listen anytime they want. This can also be considered a downside,
                                     because there are thousands of competitors out there doing the same thing.
                                 </p>
                                 <p>
-                                    With Trustpilot being so popular, anyone who wants to expand their music career and
+                                    With Google being so popular, anyone who wants to expand their music career and
                                     make something of their music is on the platform and it’s become filled with
                                     up-and-coming artists as well as famous, heavy-hitting ones. You’ve got to put in
                                     the work to get noticed, and even potentially signed by an agency. It’s not
@@ -324,46 +318,39 @@
                             <button class="accordion-button collapsed box-caption" type="button"
                                     data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Benefits of Buying Trustpilot Reviews
+                                Benefits of Buying Google Reviews
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                              data-bs-parent="#accordionExample">
                             <div class="accordion-body description">
                                 <p>
-                                    There are plenty of reasons why people buy Trustpilot reviews. When you are
-                                    passionate
-                                    about your music, you want people to hear it, and you want to be able to spend as
+                                    There are plenty of reasons why people buy Google reviews. When you are passionate
+                                    about your music, you want people to hear it and you want to be able to spend as
                                     much time on creating it and sharing it as possible.
                                 </p>
                                 <p>
-                                    Trustpilot makes things easier, but at the same time makes things harder because
-                                    there
+                                    Google makes things easier, but at the same time makes things harder because there
                                     are so many people trying to do exactly the same thing. When you try to build your
-                                    Trustpilot reviews on your own, the process is long and tedious, and you can miss
-                                    out on
+                                    Google reviews on your own, the process is long and tedious, and you can miss out on
                                     a lot of opportunities by not having a high number or reviews to get noticed.
                                 </p>
                                 <p>
-                                    For that reason, many people have decided to buy Trustpilot reviews to help define
-                                    their
-                                    image and perpetuate more reviews. When you have reviews, people are more likely to
-                                    play
+                                    For that reason, many people have decided to buy Google reviews to help define their
+                                    image and perpetuate more reviews. When you have reviews, people are more likely to play
                                     your track because it already has some level of authority.
                                 </p>
                                 <p>
                                     You ultimately have two choices— wait it out and hope your music gets played, or buy
-                                    Trustpilot reviews which will effectively bring you a reliable solution to start
-                                    your
-                                    Trustpilot growth and popularity.
+                                    Google reviews which will effectively bring you a reliable solution to start your
+                                    Google growth and popularity.
                                 </p>
                                 <p>
                                     Your target audience is much more likely to see and be tempted to listen to your
-                                    tracks when they have more reviews. Purchasing Trustpilot reviews is totally legal
-                                    and a
+                                    tracks when they have more reviews. Purchasing Google reviews is totally legal and a
                                     great way to boost your account’s visibility and popularity, but you have to make
                                     sure that you buy from a company that isn’t just out to turn a profit, selling fake
-                                    Trustpilot reviews and bots that can hurt your account health.
+                                    Google reviews and bots that can hurt your account health.
                                 </p>
                             </div>
                         </div>
@@ -373,24 +360,22 @@
                             <button class="accordion-button collapsed box-caption" type="button"
                                     data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                More Trustpilot Reviews = Better Algorithm Performance
+                                More Google Reviews = Better Algorithm Performance
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                              data-bs-parent="#accordionExample">
                             <div class="accordion-body description">
                                 <p>
-                                    Trustpilot uses search rankings to promote music that people should listen to, and
-                                    when
+                                    Google uses search rankings to promote music that people should listen to, and when
                                     a user searches for something, you’re likely to stand out in the search rankings,
-                                    which means you’re doing well in terms of the Trustpilot algorithm.
+                                    which means you’re doing well in terms of the Google algorithm.
                                 </p>
                                 <p>
-                                    If you have high search rankings, your music will become more visible to Trustpilot
+                                    If you have high search rankings, your music will become more visible to Google
                                     users, which is exactly what you need to get more reviews and more fans. Buying
-                                    Trustpilot reviews can help you to get better rankings because you need to have
-                                    reviews so
-                                    that the Trustpilot algorithm can identify your account as valuable to the music
+                                    Google reviews can help you to get better rankings because you need to have reviews so
+                                    that the Google algorithm can identify your account as valuable to the music
                                     community.
                                 </p>
                             </div>
@@ -401,31 +386,27 @@
                             <button class="accordion-button collapsed box-caption" type="button"
                                     data-bs-toggle="collapse"
                                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                High Numbers of Trustpilot Reviews Gives You Authority
+                                High Numbers of Google Reviews Gives You Authority
                             </button>
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                              data-bs-parent="#accordionExample">
                             <div class="accordion-body description">
                                 <p>
-                                    Your Trustpilot account will be more legit when you have more Trustpilot reviews—
-                                    people
+                                    Your Google account will be more legit when you have more Google reviews— people
                                     will take you more seriously and they will consider you to have some type of musical
                                     authority in your genre and within the musical community.
                                 </p>
                                 <p>
-                                    If you pop over to a musician’s Trustpilot profile and notice their music only has
+                                    If you pop over to a musician’s Google profile and notice their music only has
                                     about 15 reviews and a few followers, you’re likely to reconsider and check out
                                     someone else’s. Only a few engagements makes your profile look less established and
                                     novice.
                                 </p>
                                 <p>
-                                    People want to be a part of something and when you have a lot of followers and
-                                    reviews
-                                    on Trustpilot, they want to see what all the fuss is about. You need reviews to be
-                                    seen,
-                                    but you need to be seen to get reviews. This is where buying Trustpilot reviews can
-                                    help
+                                    People want to be a part of something and when you have a lot of followers and reviews
+                                    on Google, they want to see what all the fuss is about. You need reviews to be seen,
+                                    but you need to be seen to get reviews. This is where buying Google reviews can help
                                     you get the process started and give you the authority needed to attract more
                                     listeners.
                                 </p>
@@ -437,22 +418,20 @@
                             <button class="accordion-button collapsed box-caption" type="button"
                                     data-bs-toggle="collapse"
                                     data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                Having More Trustpilot Reviews Helps You Compete
+                                Having More Google Reviews Helps You Compete
                             </button>
                         </h2>
                         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                              data-bs-parent="#accordionExample">
                             <div class="accordion-body description">
                                 <p>
-                                    With so much competition on Trustpilot, you need to make sure that you stay a cut
-                                    above
-                                    the rest. When you buy Trustpilot reviews, you can compete with bigger profiles and
-                                    other
+                                    With so much competition on Google, you need to make sure that you stay a cut above
+                                    the rest. When you buy Google reviews, you can compete with bigger profiles and other
                                     popular accounts in your genre, helping you to stay relevant and get noticed by
                                     people despite the competition.
                                 </p>
                                 <p>
-                                    It also helps to speed up the growth of your Trustpilot by perpetuating more reviews
+                                    It also helps to speed up the growth of your Google by perpetuating more reviews
                                     through your reputation, getting you notoriety in comparison to your competitors.
                                 </p>
                             </div>
@@ -463,7 +442,7 @@
                             <button class="accordion-button collapsed box-caption" type="button"
                                     data-bs-toggle="collapse"
                                     data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                Should I Buy Trustpilot Reviews?
+                                Should I Buy Google Reviews?
                             </button>
                         </h2>
                         <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
@@ -473,20 +452,18 @@
                                     So, the question remains— to buy, or not to buy?
                                 </p>
                                 <p>
-                                    Buying Trustpilot reviews will give your profile an instant boost and help you to
-                                    get
+                                    Buying Google reviews will give your profile an instant boost and help you to get
                                     things moving so that you can continue to grow naturally. It’s one of the best ways
                                     to help get your profile recognized and rank higher, so it’s a great idea.
                                 </p>
                                 <p>
-                                    Before you buy, though, remember— not all Trustpilot reviews are created equal, and
-                                    if
+                                    Before you buy, though, remember— not all Google reviews are created equal, and if
                                     you buy fakes or bots, they may end up hurting your account.
                                 </p>
                                 <p>
-                                    SidesMedia knows this and we do everything you can to make sure we provide you with
+                                    Reputationdealer knows this and we do everything you can to make sure we provide you with
                                     real, safe, and effective services, but not all companies are the same. Here are
-                                    some things you need to check for when buying Trustpilot reviews.
+                                    some things you need to check for when buying Google reviews.
                                 </p>
                             </div>
                         </div>
@@ -552,7 +529,7 @@
                             <div class="accordion-body description">
                                 <p>
                                     If a company has just popped up on the market, they may not have the experience
-                                    necessary to be able to provide real and valuable Trustpilot engagements. Make sure
+                                    necessary to be able to provide real and valuable Google engagements. Make sure
                                     that the company is reputable and has reviews to back their services up.
                                 </p>
                             </div>
@@ -586,15 +563,14 @@
                                     data-bs-toggle="collapse"
                                     data-bs-target="#collapseEleven" aria-expanded="false"
                                     aria-controls="collapseEleven">
-                                Will I Get Banned if I Buy Trustpilot Reviews?
+                                Will I Get Banned if I Buy Google Reviews?
                             </button>
                         </h2>
                         <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
                              data-bs-parent="#accordionExample">
                             <div class="accordion-body description">
                                 <p>
-                                    No, you won’t be banned for buying Trustpilot reviews. You have to ensure, though,
-                                    that
+                                    No, you won’t be banned for buying Google reviews. You have to ensure, though, that
                                     you buy from a company that maintains the integrity of your account and doesn’t fill
                                     your profile up with spam and fakes.
                                 </p>
@@ -615,14 +591,13 @@
                             <div class="accordion-body description">
                                 <p>
                                     If you buy a package of, let’s say, 100k reviews, it’s going to be pretty clear that
-                                    this isn’t authentic, and it could get you in trouble or cause Trustpilot to raise
-                                    some
+                                    this isn’t authentic, and it could get you in trouble or cause Google to raise some
                                     eyebrows.
                                 </p>
                                 <p>
-                                    If this order is delivered gradually and dripped onto your Trustpilot naturally, you
+                                    If this order is delivered gradually and dripped onto your Google naturally, you
                                     can buy in larger packages, but if you get a package with instant delivery dropping
-                                    high numbers of reviews onto your Trustpilot, something may look fishy.
+                                    high numbers of reviews onto your Google, something may look fishy.
                                 </p>
                             </div>
                         </div>
@@ -633,21 +608,20 @@
                                     data-bs-toggle="collapse"
                                     data-bs-target="#collapseThirteen" aria-expanded="false"
                                     aria-controls="collapseThirteen">
-                                Have a Separate Trustpilot Strategy
+                                Have a Separate Google Strategy
                             </button>
                         </h2>
                         <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen"
                              data-bs-parent="#accordionExample">
                             <div class="accordion-body description">
                                 <p>
-                                    Buying Trustpilot reviews is a great way to get your growth moving and get more
-                                    people
+                                    Buying Google reviews is a great way to get your growth moving and get more people
                                     listening to your music, but it shouldn’t be the only strategy you have to gain more
                                     popularity on the platform.
                                 </p>
                                 <p>
                                     Continue sharing your music on multiple social media networks, engage with other
-                                    artists and listeners, optimize your Trustpilot profile to look as professional and
+                                    artists and listeners, optimize your Google profile to look as professional and
                                     organized as possible, and keep working hard to put out quality music that people
                                     truly want to listen to.
                                 </p>
@@ -660,21 +634,18 @@
                                     data-bs-toggle="collapse"
                                     data-bs-target="#collapseFourteen" aria-expanded="false"
                                     aria-controls="collapseFourteen">
-                                Buy Trustpilot Reviews
+                                Buy Google Reviews
                             </button>
                         </h2>
                         <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen"
                              data-bs-parent="#accordionExample">
                             <div class="accordion-body description">
                                 <p>
-                                    Buying Trustpilot reviews from a reputable and trustworthy company like SidesMedia
-                                    can be
-                                    just what you need to supercharge your Trustpilot growth and get more people
-                                    listening
+                                    Buying Google reviews from a reputable and trustworthy company like Reputationdealer can be
+                                    just what you need to supercharge your Google growth and get more people listening
                                     to your music. Check out our FAQ to get more info, have a look at our packages, and
                                     feel free to reach out if you have any questions at all! We wish you all the best on
-                                    your quest for Trustpilot growth and want to help you get your music out to the
-                                    world.
+                                    your quest for Google growth and want to help you get your music out to the world.
                                 </p>
                             </div>
                         </div>
@@ -1015,52 +986,10 @@
     </div>
 </section>
 
-<footer class="bg-custom-dark text-white">
-    <div class="container pt-2 pb-5">
-        <div class="row">
-            <div class="col-lg-12 mt-3">
-                <ul class="nav box-caption justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Reviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">FAQ</a>
-                    </li>
-                </ul>
-                <p class="mt-3 mb-3 description">
-                    We specialize in growing Social Media pages and helping businesses increase the amount of
-                    engagements on their Social Media page. We’re one of the few companies that guarantee our service
-                    and that will provide lasting, effective results for you and your page.
-                </p>
-                <p class="description"><strong>Terms & Conditions</strong></p>
-            </div>
-        </div>
-        <div class="row mt-3">
-            <div class="col-lg-12 description">
-                <p>
-                    Reputationdealer is in no way associated or affiliated with YouTube, Twitter, Snapchat, Facebook,
-                    Pinterest, Trustpilot, Instagram, Vimeo, Tumblr, Dailymotion, LinkedIn, Google, Reddit, Discord,
-                    TikTok, SoundCloud, Clubhouse, Mixcloud, VK, Telegram, Trustpilot, Twitch, IMDb, Quora, etc. All the
-                    TMs. Logos and Brand Names belong to their respective owner and we don't establish any claim or
-                    ownership of it.
-                </p>
-                <p>
-                    We strictly adhere to the community rules and guidelines set by the above said websites and brands.
-                </p>
-            </div>
-            <div class="col-lg-12 mt-3 text-center">
-                <img src="assets/img/cre.png" class="img-fluid" alt=""/>
-                <p class="box-caption">© Copyright 2022, Reputationdealer, All Rights Reserved.</p>
-            </div>
-        </div>
-    </div>
-</footer>
+<!--include footer-->
+<?php
+include ("includes/footer.php");
+?>
 
 <!-- Bootstrap Bundle with Popper -->
 <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
