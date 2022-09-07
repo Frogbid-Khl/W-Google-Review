@@ -14,6 +14,23 @@ $('#owl-carousel').owlCarousel({
     },
 })
 
+$('#owl-carousel1').owlCarousel({
+    loop: true,
+    margin: 30,
+    dots: true,
+    items: 4,
+    autoplay: false,
+    nav:true,
+    responsive: {
+        0: {
+            items: 2
+        },
+        1000: {
+            items: 4
+        },
+    },
+})
+
 
 let SwiperTop = new Swiper('.swiper--top', {
     spaceBetween: 0,

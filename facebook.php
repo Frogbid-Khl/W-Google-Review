@@ -25,7 +25,7 @@
 </head>
 <body>
 <?php
-include ("includes/navbar.php");
+include("includes/navbar.php");
 ?>
 <section class="bg-custom-light">
     <div class="container pt-2 pb-5">
@@ -62,7 +62,8 @@ include ("includes/navbar.php");
                     <div class="row">
                         <div class="mb-3 description col-6">
                             <label class="form-label">Email</label>
-                            <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+                            <input type="email" name="email" class="form-control" placeholder="Enter your email"
+                                   required>
                         </div>
                         <div class="mb-3 description col-6">
                             <label class="form-label">Contact Number</label>
@@ -104,10 +105,9 @@ include ("includes/navbar.php");
                     <div class="mb-3">
                         <div class="row">
                             <div class="d-grid col-6">
-                                <button type="button" class="btn btn-primary btn-lg box-caption">Add to Cart</button>
-                            </div>
-                            <div class="d-grid col-6">
-                                <button type="submit" name="submit" class="btn btn-secondary btn-lg box-caption">Buy Now</button>
+                                <button type="submit" name="submit" class="btn btn-secondary btn-lg box-caption">Ask for
+                                    Quotation
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -126,9 +126,9 @@ include ("includes/navbar.php");
                 </h1>
             </div>
             <div class="col-lg-12 mt-3 description">
-                The temptation to buy Facebook reviews is understandable in pursuit of an impressive star rating. But is
-                it safe or even effective to buy Facebook page reviews for your business? Can you confidently buy 5 star
-                Facebook reviews online, or does doing so put your account in jeopardy?
+                The temptation to buy Facebook reviews is understandable in the pursuit of an impressive star rating.
+                But is it safe or even effective to buy Facebook Page reviews for your business? Is your account at
+                risk?
             </div>
         </div>
     </div>
@@ -143,22 +143,21 @@ include ("includes/navbar.php");
             <div class="col-lg-8 mt-2 description">
                 <h1 class="header-title">Who Needs Facebook Page Reviews?</h1>
                 <p>
-                    These days, social proof is everything. If you want your Facebook page to be taken seriously, it
-                    needs verification. Not from you, but from your target audience. The single most influential form of
-                    social proof is customer feedback. Whatever it is your business does, it’s the word of mouth that
-                    builds your reputation.
+                    Today, social proof is everything. If you want your Facebook page to be taken seriously, you need
+                    verification. Not by you, but by your target group. The most influential form of social proof is
+                    customer feedback. Whatever your business does, it's word of mouth that builds your reputation.
                 </p>
                 <p>
-                    Not to mention the extent to which others are willing to give you a shot. Consequently, Facebook
-                    page reviews play a major role in establishing credibility, appeal, and authority. If you have a
-                    long list of positive reviews, you’re golden. If there are too many negative reviews in the mix,
-                    you’re headed for trouble.
+                    Not to mention the extent to which others are willing to try. Consequently, Facebook Page reviews
+                    play an important role in building credibility, attractiveness, and authority. If you have a long
+                    list of positive reviews, you've come to the right place. If there are too many negative reviews in
+                    the mix, you're going to run into trouble.
                 </p>
                 <p>
-                    Likewise, having too few reviews, in general, can make it difficult for people to make their minds
-                    up. In the case of the latter two scenarios, why not simply buy Facebook reviews to steer things in
-                    the right direction? Waiting for reviews to roll in organically is one option, but it can be far
-                    quicker, easier, and more effective to buy reviews on Facebook.
+                    Similarly, it can be difficult for users, in general, to make a decision if they have too few
+                    reviews. In the case of the last two scenarios, why not just buy Facebook reviews to get things
+                    moving in the right direction? Adding reviews organically is an option, but buying reviews on
+                    Facebook can be much faster, easier, and more effective.
                 </p>
             </div>
         </div>
@@ -175,16 +174,15 @@ include ("includes/navbar.php");
             </div>
             <div class="col-lg-12 mt-3">
                 <p>
-                    It’s important to be mindful of quality and authenticity when you buy Facebook reviews. This is due
-                    to the fact that those who are interested in your page will probably take the time to read them. If
-                    there’s even the slightest indication of spam, they’ll disappear and never return. The only reviews
-                    that are safe to buy are those that are 100% authentic-real reviews written by real people of
-                    genuine relevance to your business.
+                    It's important to look for quality and authenticity when buying Facebook reviews. This is because
+                    those who are interested in your page will likely take the time to read it. If there is even the
+                    slightest hint of spam, they go away and never come back. The only reviews that are safe to buy are
+                    100% authentic - real reviews written by real people who are truly relevant to your business.
                 </p>
                 <p>
-                    Bot-generated reviews and those of no relevance to your brand will be immediately picked up on as
-                    spam. At which point, it’s game over for your credibility. It can be safe to buy Facebook reviews in
-                    any quantity, just as long as they are completely indistinguishable from the real thing.
+                    Bot-generated reviews and reviews that aren't relevant to your brand are immediately considered
+                    spam. At that point, it was game over for his credibility. It can be safe to buy any amount of
+                    Facebook reviews as long as they are indistinguishable from reality.
                 </p>
             </div>
         </div>
@@ -197,19 +195,19 @@ include ("includes/navbar.php");
             <div class="col-lg-8 mt-2 description">
                 <h1 class="header-title">Does Buying Facebook Reviews Actually Work?</h1>
                 <p>
-                    The short answer is yes, and in more ways than one. When Facebook users see a high star rating, they
-                    don’t question it. Nor do they have any real interest in where the ratings came from. All they see
-                    is a Facebook page and a business that’s worth checking out and trusting.
+                    The short answer is yes, in more ways than one. When Facebook users see a high star rating, they
+                    don't question it. They also have no real interest in where the reviews are coming from. All they
+                    see is a Facebook page and a business worth visiting and trusting.
                 </p>
                 <p>
-                    When you buy Facebook page reviews, you make a direct investment in trust, appeal, and engagement.
-                    In addition, Facebook itself is configured to promote and recommend top-rated businesses. The higher
-                    your star rating, the more likely you are to be promoted by Facebook.
+                    When you buy reviews from Facebook Pages, you are investing directly in trust, engagement and
+                    engagement. Additionally, Facebook itself is set up to promote and recommend top-notch businesses.
+                    The higher your star rating, the more likely you are to be promoted by Facebook.
                 </p>
                 <p>
-                    A high star rating boosts visibility while at the same time maximizing your credibility. These are
-                    two enormous potential benefits from one cost-effective promotional tool. Far easier and quicker
-                    than waiting for positive reviews to stack up the old-fashioned way.
+                    A high star rating increases visibility while maximizing your credibility. These are two major
+                    potential benefits of a profitable advertising tool. Much easier and faster than waiting for
+                    positive reviews to pile up the old-fashioned way.
                 </p>
             </div>
             <div class="col-lg-4 mt-2">
@@ -468,7 +466,8 @@ include ("includes/navbar.php");
                                 <p>
                                     Legit companies are going to do everything they can to make their clients feel at
                                     home from the beginning and make them feel like they can come to them for anything,
-                                    no matter what. Here at Reputationdealer, we have excellent Facebook Reviews that come
+                                    no matter what. Here at Reputationdealer, we have excellent Facebook Reviews that
+                                    come
                                     with a high retention rate.
                                 </p>
                                 <p>
@@ -489,7 +488,7 @@ include ("includes/navbar.php");
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/1.png" class="rounded-circle review-image" alt="">
@@ -514,7 +513,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/2.jpg" class="rounded-circle review-image" alt="">
@@ -541,7 +540,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/3.png" class="rounded-circle review-image" alt="">
@@ -567,7 +566,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/4.png" class="rounded-circle review-image" alt="">
@@ -593,7 +592,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/5.png" class="rounded-circle review-image" alt="">
@@ -619,7 +618,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/6.jpg" class="rounded-circle review-image" alt="">
@@ -652,7 +651,7 @@ include ("includes/navbar.php");
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/1.png" class="rounded-circle review-image" alt="">
@@ -677,7 +676,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/2.jpg" class="rounded-circle review-image" alt="">
@@ -704,7 +703,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/3.png" class="rounded-circle review-image" alt="">
@@ -730,7 +729,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/4.png" class="rounded-circle review-image" alt="">
@@ -756,7 +755,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/5.png" class="rounded-circle review-image" alt="">
@@ -782,7 +781,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/6.jpg" class="rounded-circle review-image" alt="">

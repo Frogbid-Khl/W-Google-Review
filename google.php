@@ -22,6 +22,11 @@
     <link href="assets/css/style.css" rel="stylesheet"/>
 
     <title>Google Review | Reputationdealer</title>
+    <style>
+        #more {
+            display: none;
+        }
+    </style>
 </head>
 <body>
 
@@ -66,7 +71,8 @@ include("includes/navbar.php");
                     <div class="row">
                         <div class="mb-3 description col-6">
                             <label class="form-label">Email</label>
-                            <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+                            <input type="email" name="email" class="form-control" placeholder="Enter your email"
+                                   required>
                         </div>
                         <div class="mb-3 description col-6">
                             <label class="form-label">Contact Number</label>
@@ -96,25 +102,24 @@ include("includes/navbar.php");
                         <label class="form-label">No. of Review</label>
                         <input type="text" name="number_of_review" class="form-control" placeholder="XXXX" required>
                     </div>
-                <div class="mb-3 description">
-                    <label class="form-label">Enter Custom Reviews *</label>
-                    <textarea class="form-control" name="message" rows="3" required></textarea>
-                </div>
-                <div class="mb-3 description">
-                    <label class="form-label">Enter Google My Business/Google Maps URL *</label>
-                    <input type="text" name="url" class="form-control" placeholder="https://" required>
-                </div>
+                    <div class="mb-3 description">
+                        <label class="form-label">Enter Custom Reviews *</label>
+                        <textarea class="form-control" name="message" rows="3" required></textarea>
+                    </div>
+                    <div class="mb-3 description">
+                        <label class="form-label">Enter Google My Business/Google Maps URL *</label>
+                        <input type="text" name="url" class="form-control" placeholder="https://" required>
+                    </div>
                     <input type="hidden" name="page" class="form-control" value="google">
-                <div class="mb-3">
-                    <div class="row">
-                        <div class="d-grid col-6">
-                            <button type="button" class="btn btn-primary btn-lg box-caption">Add to Cart</button>
-                        </div>
-                        <div class="d-grid col-6">
-                            <button type="submit" name="submit" class="btn btn-secondary btn-lg box-caption">Buy Now</button>
+                    <div class="mb-3">
+                        <div class="row">
+                            <div class="d-grid col-6">
+                                <button type="submit" name="submit" class="btn btn-secondary btn-lg box-caption">Ask for
+                                    Quotation
+                                </button>
+                            </div>
                         </div>
                     </div>
-                </div>
                 </form>
             </div>
         </div>
@@ -130,15 +135,11 @@ include("includes/navbar.php");
                 </h1>
             </div>
             <div class="col-lg-12 mt-3 description">
-                These days, each and every online mention of your business or brand name makes a difference. Though it
-                has to be
-                said that when the aim is to stand out for all the right reasons, positive reviews really are
-                everything.
-                Precisely why those who buy Google My Business Reviews often gain a major edge over their competitors.
-                If you’re
-                serious about making a name for yourself in any niche whatsoever, making the decision to buy Google
-                Reviews
-                might not be quite as crazy as it sounds.
+                Today, every mention of your business or brand online makes a difference. Although it has to be said
+                that positive reviews really are everything when it comes to standing out for the right reasons. This is
+                precisely why buyers of Google My Business Reviews often gain a huge advantage over their competitors.
+                If you really want to make a name for yourself in any niche, the decision to buy Google Reviews might
+                not be as crazy as it sounds.
             </div>
         </div>
     </div>
@@ -164,17 +165,17 @@ include("includes/navbar.php");
                     </li>
                 </ul>
                 <p>
-                    Both of which can be achieved with a decent contingency of reviews to back you up. For obvious
-                    reasons, Google pays close attention to Google Business Reviews. Play your cards right with Google
-                    and you’ve every chance of climbing to a more prominent position. But what really makes the
-                    difference is that when you buy Google Business Reviews, you’re exponentially more likely to be
-                    taken seriously by your target audience.
+                    Both of these can be achieved with a decent number of reviews to back them up. For obvious reasons,
+                    Google pays a lot of attention to Google Business Reviews. Play your cards right on Google and you
+                    have every chance of rising to a prominent position. But what really makes the difference is that
+                    your audience is exponentially more likely to take you seriously after purchasing Google Business
+                    Reviews.
                 </p>
                 <p>
-                    In fact, not backing up your promises and assurances with plenty of reviews means running the risk
-                    of being overlooked entirely. These days, consumers worldwide just aren’t willing to risk their
-                    time and money on businesses that haven’t been verified by other consumers. When you buyReviews,
-                    you buy this exact verification.
+                    If you don't back up your promises and guarantees with plenty of reviews, you risk being completely
+                    overlooked. Today, consumers around the world are simply not willing to risk their time and money
+                    for companies that have not been verified. from other consumers. When you buy reviews, you buy
+                    exactly this verification.
                 </p>
             </div>
         </div>
@@ -191,13 +192,10 @@ include("includes/navbar.php");
             </div>
             <div class="col-lg-12 mt-3">
                 <p>
-                    Given the fact that you’re reading this right now, you probably don’t already have a vast archive of
-                    Google Reviews to
-                    support your business. It could be that you’re yet to accumulate much feedback at all, or that your
-                    image has been
-                    tarnished with negative feedback - justified or otherwise. In both instances, there are two
-                    important things you need to
-                    bear in mind:
+                    Since you're reading this, you probably don't yet have an extensive archive of Google reviews to
+                    support your business. It may be that you still have a lot of comments to collect, or that your
+                    image has been tarnished by negative comments, legitimate or not. In both cases, there are two
+                    important things to note:
                 </p>
                 <ul>
                     <li>
@@ -228,27 +226,22 @@ include("includes/navbar.php");
             <div class="col-lg-8 mt-2 description">
                 <h1 class="header-title">Does Buying Google Reviews Actually Work?</h1>
                 <p>
-                    Not only does it work, but it works in two important ways. As outlined a little earlier, stacking up
-                    plenty of Google
-                    Business Reviews is about both sending the right message and climbing the search engine results page
-                    rankings.
+                    Not only does it work, but it also works in two important ways. As mentioned, collecting lots of
+                    Google Business Reviews is as much about sending the right message as it is about improving rankings
+                    on the search engine results page.
                 </p>
                 <p>
-                    When you buy Google Reviews, those who come across your business are immediately impressed by the
-                    positive feedback
-                    you’ve received. Google also takes note of your positive reviews, ensuring you’re positioned
-                    prominently for appropriate
-                    search terms.
+                    When you buy Google Reviews, people who come across your business are immediately impressed with the
+                    positive feedback you've received. Google also takes note of your positive reviews, making sure you
+                    rank high for the right search terms.
                 </p>
                 <p>
-                    All of which makes up easy to find and easy to trust - all from a comparatively inexpensive
-                    investment. Now more than
-                    ever, getting by without positive feedback (and plenty of it) simply isn’t an option.
+                    All of this makes it easy to find and easy to trust, all for a comparatively cheap investment. Now
+                    more than ever, going without positive feedback (and lots of it) just isn't an option.
                 </p>
                 <p>
-                    Hence, if you’re serious about climbing the rankings and presenting yourself as both trustworthy and
-                    credible, you need
-                    as many Google Reviews as you can lay your hands on.
+                    So if you really want to climb the rankings and present yourself as trustworthy and credible, you
+                    need as many Google reviews as possible.
                 </p>
             </div>
             <div class="col-lg-4 mt-2">
@@ -337,7 +330,8 @@ include("includes/navbar.php");
                                 </p>
                                 <p>
                                     For that reason, many people have decided to buy Google reviews to help define their
-                                    image and perpetuate more reviews. When you have reviews, people are more likely to play
+                                    image and perpetuate more reviews. When you have reviews, people are more likely to
+                                    play
                                     your track because it already has some level of authority.
                                 </p>
                                 <p>
@@ -374,7 +368,8 @@ include("includes/navbar.php");
                                 <p>
                                     If you have high search rankings, your music will become more visible to Google
                                     users, which is exactly what you need to get more reviews and more fans. Buying
-                                    Google reviews can help you to get better rankings because you need to have reviews so
+                                    Google reviews can help you to get better rankings because you need to have reviews
+                                    so
                                     that the Google algorithm can identify your account as valuable to the music
                                     community.
                                 </p>
@@ -404,7 +399,8 @@ include("includes/navbar.php");
                                     novice.
                                 </p>
                                 <p>
-                                    People want to be a part of something and when you have a lot of followers and reviews
+                                    People want to be a part of something and when you have a lot of followers and
+                                    reviews
                                     on Google, they want to see what all the fuss is about. You need reviews to be seen,
                                     but you need to be seen to get reviews. This is where buying Google reviews can help
                                     you get the process started and give you the authority needed to attract more
@@ -426,7 +422,8 @@ include("includes/navbar.php");
                             <div class="accordion-body description">
                                 <p>
                                     With so much competition on Google, you need to make sure that you stay a cut above
-                                    the rest. When you buy Google reviews, you can compete with bigger profiles and other
+                                    the rest. When you buy Google reviews, you can compete with bigger profiles and
+                                    other
                                     popular accounts in your genre, helping you to stay relevant and get noticed by
                                     people despite the competition.
                                 </p>
@@ -461,7 +458,8 @@ include("includes/navbar.php");
                                     you buy fakes or bots, they may end up hurting your account.
                                 </p>
                                 <p>
-                                    Reputationdealer knows this and we do everything you can to make sure we provide you with
+                                    Reputationdealer knows this and we do everything you can to make sure we provide you
+                                    with
                                     real, safe, and effective services, but not all companies are the same. Here are
                                     some things you need to check for when buying Google reviews.
                                 </p>
@@ -641,7 +639,8 @@ include("includes/navbar.php");
                              data-bs-parent="#accordionExample">
                             <div class="accordion-body description">
                                 <p>
-                                    Buying Google reviews from a reputable and trustworthy company like Reputationdealer can be
+                                    Buying Google reviews from a reputable and trustworthy company like Reputationdealer
+                                    can be
                                     just what you need to supercharge your Google growth and get more people listening
                                     to your music. Check out our FAQ to get more info, have a look at our packages, and
                                     feel free to reach out if you have any questions at all! We wish you all the best on
@@ -662,7 +661,7 @@ include("includes/navbar.php");
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/1.png" class="rounded-circle review-image" alt="">
@@ -679,7 +678,7 @@ include("includes/navbar.php");
                                 </div>
                             </div>
                             <p class="card-text text-center pt-4 mt-4">
-                                Thanks to the service, in a short time we found new customers! Therefore, I recommend
+                                Thanks to the service, in a short time we found new customers!Therefore, I recommend
                                 that you take a closer look at this service. Everything is great!
                             </p>
                         </div>
@@ -687,7 +686,7 @@ include("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/2.jpg" class="rounded-circle review-image" alt="">
@@ -714,7 +713,7 @@ include("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/3.png" class="rounded-circle review-image" alt="">
@@ -740,7 +739,7 @@ include("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/4.png" class="rounded-circle review-image" alt="">
@@ -766,7 +765,7 @@ include("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/5.png" class="rounded-circle review-image" alt="">
@@ -792,7 +791,7 @@ include("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/6.jpg" class="rounded-circle review-image" alt="">
@@ -825,7 +824,7 @@ include("includes/navbar.php");
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/1.png" class="rounded-circle review-image" alt="">
@@ -850,7 +849,7 @@ include("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/2.jpg" class="rounded-circle review-image" alt="">
@@ -877,7 +876,7 @@ include("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/3.png" class="rounded-circle review-image" alt="">
@@ -903,7 +902,7 @@ include("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/4.png" class="rounded-circle review-image" alt="">
@@ -929,7 +928,7 @@ include("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/5.png" class="rounded-circle review-image" alt="">
@@ -955,7 +954,7 @@ include("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/6.jpg" class="rounded-circle review-image" alt="">
@@ -988,7 +987,7 @@ include("includes/navbar.php");
 
 <!--include footer-->
 <?php
-include ("includes/footer.php");
+include("includes/footer.php");
 ?>
 
 <!-- Bootstrap Bundle with Popper -->
@@ -1005,6 +1004,24 @@ include ("includes/footer.php");
 
 <!-- Main JS -->
 <script src="assets/js/main.js"></script>
+
+<script>
+    function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less";
+            moreText.style.display = "inline";
+        }
+    }
+</script>
 
 </body>
 </html>

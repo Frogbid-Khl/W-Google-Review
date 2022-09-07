@@ -26,7 +26,7 @@
 <body>
 
 <?php
-include ("includes/navbar.php");
+include("includes/navbar.php");
 ?>
 
 <section class="bg-custom-light">
@@ -63,7 +63,8 @@ include ("includes/navbar.php");
                     <div class="row">
                         <div class="mb-3 description col-6">
                             <label class="form-label">Email</label>
-                            <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+                            <input type="email" name="email" class="form-control" placeholder="Enter your email"
+                                   required>
                         </div>
                         <div class="mb-3 description col-6">
                             <label class="form-label">Contact Number</label>
@@ -105,10 +106,9 @@ include ("includes/navbar.php");
                     <div class="mb-3">
                         <div class="row">
                             <div class="d-grid col-6">
-                                <button type="button" class="btn btn-primary btn-lg box-caption">Add to Cart</button>
-                            </div>
-                            <div class="d-grid col-6">
-                                <button type="submit" name="submit" class="btn btn-secondary btn-lg box-caption">Buy Now</button>
+                                <button type="submit" name="submit" class="btn btn-secondary btn-lg box-caption">Ask for
+                                    Quotation
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -170,32 +170,32 @@ include ("includes/navbar.php");
             <div class="col-lg-8 mt-2 description">
                 <h1 class="header-title">Why Do People Buy Yelp Reviews?</h1>
                 <p>
-                    So, why would people choose to buy their Yelp Reviews? Well, one reason could be because they want
-                    to find a way to save time and streamline their engagement strategy. If they have been trying to
-                    grow their brand on Yelp for a while, they probably have a Yelp business page, and have set up a few
-                    links, so that you can be redirected to their website.
+                    So why would people choose to buy your Yelp reviews? Well, one reason could be that they want to
+                    find a way to save time and streamline their engagement strategy. If you've been trying to grow your
+                    brand on Yelp for a while, chances are you've set up a Yelp business page and some links to direct
+                    you to their site.
                 </p>
                 <p>
-                    However, they probably haven’t worked out exactly how their engagement strategy works, or what a
-                    good one looks like. The thing about your Yelp engagement strategy is that it can be complicated and
-                    difficult to develop, especially considering Yelp’s algorithm is changing all the time.
+                    However, they may not have figured out exactly how their engagement strategy works or what a good
+                    one looks like. The thing about Yelp's interaction strategy is that it can be complicated and
+                    difficult to develop, especially considering that Yelp's algorithm is constantly changing.
                 </p>
                 <p>
-                    What might have worked in terms of your engagement strategy for Yelp last week, might not be working
-                    now, and this could be completely out of your control. So, one of the biggest reasons why people
-                    choose to outsource their Yelp Reviews is to save time. When they have professionals in the social
-                    media marketing industry taking care of their engagement strategy, they can breathe a sigh of
-                    relief, and spend all their time focusing on their Yelp content instead.
+                    What might have worked last week in terms of your Yelp engagement strategy may not be working now,
+                    and this may be completely out of your control. One of the main reasons people choose to outsource
+                    their Yelp reviews is to save time. When they have professionals from the social media marketing
+                    industry to take care of their engagement strategy, they can breathe a sigh of relief and spend all
+                    their time focusing on their Yelp content.
                 </p>
                 <p>
-                    In a world where time is money, this is going to ultimately save you a lot of time, and it is also
-                    going to help you increase your profit. If you are spending too much time on your engagement
-                    strategy and making sure that it is perfect, you could be wasting days, weeks, and even months of
-                    time that could be spent making a profit and connecting the right people to your product or service.
+                    In a world where time is money, this saves you a lot of time and also helps to increase your
+                    profits. If you spend too much time on your engagement strategy and making sure it's perfect, you
+                    could be wasting days, weeks, or even months that could be spent turning a profit and engaging the
+                    right people with your product or service connect.
                 </p>
                 <p>
-                    We think that people who choose to buy their Yelp Reviews are smart, savvy, and know exactly what
-                    their Yelp business page needs to do really well.
+                    We believe the people who buy your Yelp reviews are smart, knowledgeable, and know exactly what
+                    their Yelp business page needs to be really good at.
                 </p>
             </div>
         </div>
@@ -212,38 +212,38 @@ include ("includes/navbar.php");
             </div>
             <div class="col-lg-12 mt-3">
                 <p>
-                    We have probably got you in a place right now where you are keen to check out what’s going on in the
-                    world of social medial marketing, and how you can leverage companies out there to help you buy Yelp
-                    Reviews in a way that is going to be beneficial to your Yelp business page.
+                    We've probably brought you to a place where you want to see what's happening in the world of social
+                    media marketing and how you can get companies to help you buy Yelp reviews in a way , which benefits
+                    your site. Yelp Ad.
                 </p>
                 <p>
                     However, we do have to put forth a disclaimer at this point and say that we don’t suggest that you
                     just go for the first company that you come across.
                 </p>
                 <p>
-                    You might already be doing a Yelp search right now in the hopes of finding a company that can help
-                    you almost instantly.
+                    You may already be doing a Yelp search hoping to find a company that can help you almost
+                    immediately.
                 </p>
                 <p>
-                    However, we recommend that you put on the brakes. This is because the social media marketing
-                    industry is as unregulated as it gets, meaning that nobody is checking in to make sure that
-                    companies are doing good by their clients and upholding their alleged reputation.
+                    However, we recommend applying the brakes. That's because the social media marketing industry is
+                    about as unregulated as it sounds, meaning no one makes sure companies are doing their customers
+                    good and upholding their supposed reputation.
                 </p>
                 <p>
-                    This leaves the door wide open to scams and fake likes. So, what are fake Yelp Reviews? Well, they
-                    are likes that have been produced by a fake Yelp profile and sent to you with the purpose of simply
-                    making your content look good.
+                    This leaves the door open to scams and fake likes. So what are fake Yelp reviews? Well, these are
+                    likes created by a fake Yelp profile and sent to you for the sole purpose of making your content
+                    look good.
                 </p>
                 <p>
                     Of course, we all want our content to look good to potential audiences, but at the end of the day,
-                    this look is going to be temporary and only superficial. Fake likes might make your content look
-                    really good for a couple of days but after this, there is a really high chance of it falling off
-                    again, and ultimately your existing audience is going to wonder whether you’re legit or not.
+                    that appearance will be temporary and only superficial. Fake likes can keep your content looking
+                    really good for a few days, but after that, there is a very high chance that it will drop again, and
+                    ultimately your current audience will be wondering if it's legit or not.
                 </p>
                 <p>
-                    They will start to get suspicious, and they wonder whether you are taking shortcuts in order to
-                    advance your brand. Yelp also doesn’t like it when their users buy fake engagement because it goes
-                    against their terms of use.
+                    They will begin to get suspicious, and they marvel whether or not you're taking shortcuts so you can
+                    increase your brand. Yelp additionally doesn’t love it while their customers purchase faux
+                    engagement as it is going in opposition to their phrases of use.
                 </p>
             </div>
         </div>
@@ -256,31 +256,34 @@ include ("includes/navbar.php");
             <div class="col-lg-8 mt-2 description">
                 <h1 class="header-title">What a Scam Company Looks Like?</h1>
                 <p>
-                    So, we have put a little seed of doubt in your mind about buying Yelp Reviews, but the reality is
-                    that there are plenty of companies out there that have more than enough of a reputation for you to
-                    feel confident about buying your Yelp Reviews.
+                    So, we've got placed a touch seed of doubt on your thoughts approximately shopping for Yelp Reviews,
+                    however, the truth is that there are masses of organizations available which have extra than
+                    sufficient popularity on the way to sense assured approximately shopping for your Yelp Reviews.
                 </p>
                 <p>
-                    Let’s continue on with our mission to expose companies that are scams though and tell you all about
-                    what you need to look out for when trying to nail down the right company for your engagement. A scam
-                    company is going to have very little security when it comes to their website, because they won’t be
-                    thinking about the long-term of their clients.
+                    Let’s continue with our undertaking to show corporations that might be scammed even though and
+                    inform you all what you want to appear out for a while looking to nail down the proper organization
+                    for your engagement. A rip-off organization has little or no protection on the subject of their
+                    website, due to the fact they won’t consider the long-time period in their clients.
                 </p>
                 <p>
-                    They ultimately just want to make a quick profit and get their engagement off the shelf as quickly
-                    as possible, so they aren’t really interested in encrypting their website so that their clients can
-                    safely surf their web pages without compromising personal information.
+                    They in the long run simply need to make a brief income and get their engagement off the shelf as
+                    quickly as possible, in order that they aren’t actually interested by encrypting their internet site
+                    in order that their customers can appropriately surf their net pages without compromising private
+                    information.
                 </p>
                 <p>
-                    They might have made sure to secure their website with HTTPS, but this is as far as they will go.
-                    They won’t have secured any payment gateways, and they also won’t have an accountability form for
-                    you to fill out. Another way to tell whether a company is a scam or not is to look at their pricing.
+                    They may have made a positive to steady their internet site with HTTPS, however, that is as a long
+                    way as they may go. They won’t have secured any fee gateways, and in addition, they won’t have a
+                    duty shape with the intention to fill out. Another manner to inform whether or not an agency is a
+                    rip-off or now no longer is to examine its pricing.
                 </p>
                 <p>
-                    Most of the time, companies that are offering their clients fake Yelp Reviews will offer them at
-                    bottom-of-the-barrel prices. You might be blown away at first because you will find it hard to
-                    believe that it’s going to cost you this little to purchase your Yelp Reviews, but we highly
-                    recommend that you avoid what you might consider to be a good deal.
+                    Most of the time, corporations that can be presenting their customer's faux Yelp Reviews will
+                    provide them at bottom-of-the-barrel prices. You are probably blown away at the beginning due to the
+                    fact you may discover it difficult to agree that it’s going to price you this little to buy your
+                    Yelp Reviews, however, we extraordinarily advise that you keep away from what you would possibly
+                    bear in mind to be an awesome deal.
                 </p>
                 <p>
                     It’s much better to pay little bit more and get much higher quality features.
@@ -372,7 +375,8 @@ include ("includes/navbar.php");
                                 </p>
                                 <p>
                                     For that reason, many people have decided to buy Yelp reviews to help define their
-                                    image and perpetuate more reviews. When you have reviews, people are more likely to play
+                                    image and perpetuate more reviews. When you have reviews, people are more likely to
+                                    play
                                     your track because it already has some level of authority.
                                 </p>
                                 <p>
@@ -439,7 +443,8 @@ include ("includes/navbar.php");
                                     novice.
                                 </p>
                                 <p>
-                                    People want to be a part of something and when you have a lot of followers and reviews
+                                    People want to be a part of something and when you have a lot of followers and
+                                    reviews
                                     on Yelp, they want to see what all the fuss is about. You need reviews to be seen,
                                     but you need to be seen to get reviews. This is where buying Yelp reviews can help
                                     you get the process started and give you the authority needed to attract more
@@ -496,7 +501,8 @@ include ("includes/navbar.php");
                                     you buy fakes or bots, they may end up hurting your account.
                                 </p>
                                 <p>
-                                    Reputationdealer knows this and we do everything you can to make sure we provide you with
+                                    Reputationdealer knows this and we do everything you can to make sure we provide you
+                                    with
                                     real, safe, and effective services, but not all companies are the same. Here are
                                     some things you need to check for when buying Yelp reviews.
                                 </p>
@@ -676,7 +682,8 @@ include ("includes/navbar.php");
                              data-bs-parent="#accordionExample">
                             <div class="accordion-body description">
                                 <p>
-                                    Buying Yelp reviews from a reputable and trustworthy company like Reputationdealer can be
+                                    Buying Yelp reviews from a reputable and trustworthy company like Reputationdealer
+                                    can be
                                     just what you need to supercharge your Yelp growth and get more people listening
                                     to your music. Check out our FAQ to get more info, have a look at our packages, and
                                     feel free to reach out if you have any questions at all! We wish you all the best on
@@ -697,7 +704,7 @@ include ("includes/navbar.php");
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/1.png" class="rounded-circle review-image" alt="">
@@ -722,7 +729,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/2.jpg" class="rounded-circle review-image" alt="">
@@ -749,7 +756,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/3.png" class="rounded-circle review-image" alt="">
@@ -775,7 +782,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/4.png" class="rounded-circle review-image" alt="">
@@ -801,7 +808,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/5.png" class="rounded-circle review-image" alt="">
@@ -827,7 +834,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/6.jpg" class="rounded-circle review-image" alt="">
@@ -860,7 +867,7 @@ include ("includes/navbar.php");
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/1.png" class="rounded-circle review-image" alt="">
@@ -885,7 +892,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/2.jpg" class="rounded-circle review-image" alt="">
@@ -912,7 +919,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/3.png" class="rounded-circle review-image" alt="">
@@ -938,7 +945,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/4.png" class="rounded-circle review-image" alt="">
@@ -964,7 +971,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/5.png" class="rounded-circle review-image" alt="">
@@ -990,7 +997,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/6.jpg" class="rounded-circle review-image" alt="">
@@ -1022,7 +1029,7 @@ include ("includes/navbar.php");
 </section>
 
 <?php
-include ("includes/footer.php");
+include("includes/footer.php");
 ?>
 
 <!-- Bootstrap Bundle with Popper -->

@@ -26,7 +26,7 @@
 <body>
 
 <?php
-include ("includes/navbar.php");
+include("includes/navbar.php");
 ?>
 
 <section class="bg-custom-light">
@@ -64,7 +64,8 @@ include ("includes/navbar.php");
                     <div class="row">
                         <div class="mb-3 description col-6">
                             <label class="form-label">Email</label>
-                            <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+                            <input type="email" name="email" class="form-control" placeholder="Enter your email"
+                                   required>
                         </div>
                         <div class="mb-3 description col-6">
                             <label class="form-label">Contact Number</label>
@@ -106,10 +107,9 @@ include ("includes/navbar.php");
                     <div class="mb-3">
                         <div class="row">
                             <div class="d-grid col-6">
-                                <button type="button" class="btn btn-primary btn-lg box-caption">Add to Cart</button>
-                            </div>
-                            <div class="d-grid col-6">
-                                <button type="submit" name="submit" class="btn btn-secondary btn-lg box-caption">Buy Now</button>
+                                <button type="submit" name="submit" class="btn btn-secondary btn-lg box-caption">Ask for
+                                    Quotation
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -128,10 +128,10 @@ include ("includes/navbar.php");
                 </h1>
             </div>
             <div class="col-lg-12 mt-3 description">
-                It’s pretty safe to say that Trustpilot is the consumer feedback platform everyone has heard of. It’s
-                also the most trusted review platform of its kind, featuring millions of reviews and used by billions of
-                consumers worldwide. But in what instances would it be advisable to buy Trustpilot reviews? More
-                specifically, is it even safe to buy reviews on Trustpilot to enhance your image and appeal?
+                It's safe to say that Trustpilot is the consumer review platform everyone has heard of. It is also the
+                most trusted review platform of its kind with millions of reviews and is used by billions of consumers
+                around the world. But when is it advisable to buy Trustpilot reviews? More specifically, is it safe to
+                buy Trustpilot reviews to improve your image and appeal?
             </div>
         </div>
     </div>
@@ -164,20 +164,18 @@ include ("includes/navbar.php");
                     </li>
                 </ul>
                 <p>
-                    The simple fact of the matter being that when consumers are looking for information they can trust
-                    about a product, a service or a brand, they head to Trustpilot. Anyone can submit Trustpilot reviews
-                    about anything they like, helping others paint a picture of how trustworthy (or otherwise) the
-                    business in question is.
+                    In fact, consumers turn to Trustpilot when they're looking for trustworthy information about a
+                    product, service or brand. Anyone can leave Trustpilot reviews on anything they want and help others
+                    find out. how trustworthy (or not) the company in question is.
                 </p>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-12 mt-2 description">
                 <p>
-                    A stellar reputation on Trustpilot can work wonders for your image, your appeal and your performance
-                    as a business. By contrast, a questionable reputation on Trustpilot can have catastrophic
-                    consequences. Precisely why it’s become commonplace for businesses to buy Trustpilot reviews, to
-                    help and steer things in the right direction.
+                    A great reputation on Trustpilot can do wonders for your image, attractiveness, and performance as a
+                    business. Conversely, a questionable reputation on Trustpilot can have disastrous consequences. help
+                    and steer things in the right direction.
                 </p>
             </div>
         </div>
@@ -194,23 +192,22 @@ include ("includes/navbar.php");
             </div>
             <div class="col-lg-12 mt-3">
                 <p>
-                    There are two instances where it could be advisable and beneficial to buy reviews on Trustpilot. The
-                    first of which being to get your reputation up and running, if you don’t already have enough
-                    Trustpilot reviews to convince customers. Whether you’re a new business or you’re simply waiting for
-                    organic reviews to stack up, buying Trustpilot reviews can be a great way of setting the wheels in
-                    motion.
+                    There are two instances where it might be advisable and beneficial to buy reviews on Trustpilot. The
+                    first of these is to boost your reputation if you still don't have enough Trustpilot reviews to
+                    convince customers. If you're a new business or just waiting for the organic reviews to roll in,
+                    buying Trustpilot reviews can be a great way to get the wheels turning.
                 </p>
                 <p>
-                    Conversely, you may have received a number of negative Trustpilot reviews that you believe are
-                    unfair or misleading. Irrespective of their origins and the motivations of those behind them,
-                    negative Trustpilot reviews can have devastating consequences. In which case, you may decide to buy
-                    Trustpilot reviews to restore some kind of balance.
+                    There are two instances where buying reviews on Trustpilot can be advisable and advantageous. The
+                    first of these is to improve your reputation if you still don't have enough Trustpilot reviews to
+                    convince customers. If you're a new business or just waiting for organic reviews to roll in, buying
+                    Trustpilot reviews can be a great way to get the wheels rolling.
                 </p>
                 <p>
-                    For each unfair negative review you receive, you could buy multiple positive reviews to turn things
-                    around. In all instances, it’s a case of using the power of positive PR to send the right message
-                    about your business. With such ferocious competition across all sectors and business areas, you
-                    can’t expect to get by with are anything but a glowing reputation and a high star rating on
+                    For every unfair negative review you receive, you could buy multiple positive reviews to turn things
+                    around. In all cases, it's about harnessing the power of positive public relations to send the right
+                    message about your business. With such fierce competition across all sectors and business areas, you
+                    can't hope to get ahead with anything other than a brilliant reputation and a high star rating on
                     Trustpilot.
                 </p>
             </div>
@@ -224,20 +221,20 @@ include ("includes/navbar.php");
             <div class="col-lg-8 mt-2 description">
                 <h1 class="header-title">Is It Safe to Buy Trustpilot Reviews?</h1>
                 <p>
-                    Let’s get one thing straight – the only thing worse than a bunch of negative reviews on Trustpilot
-                    is reviews that are clearly fake. If there’s even a single suspicious review on your Trustpilot
-                    profile, you can forget about it – all the positive reviews in the world won’t compensate.
+                    To be clear, the only thing worse than a bunch of negative reviews on Trustpilot are reviews that
+                    are clearly fake. If there's even one suspicious review on your Trustpilot profile, forget it: all
+                    the positive reviews in the world won't make it up.
                 </p>
                 <p>
-                    This is why it’s of the utmost importance to be strategic and careful when you pay for Trustpilot
-                    reviews. It’s perfectly possible to purchase Trustpilot reviews safely and in complete confidence,
-                    just as long as you do so via a trusted seller who knows what they’re doing.
+                    That's why it's so important to be strategic and careful when paying for Trustpilot reviews. It's
+                    entirely possible to buy Trustpilot reviews safely and with complete confidence, as long as you're
+                    buying from a reputable seller who knows what they're doing.
                 </p>
                 <p>
-                    Every review you buy should be 100% unique, 100% relevant to your business and 100% manually written
-                    by a skilled human writer. Nothing automated or bot generated – nothing that doesn’t come from an
-                    active and verified account with a real human owner. Just as long as you stick with these rules at
-                    all times, buying Trustpilot reviews can be safe.
+                    Every review you purchase must be 100% unique, 100% relevant to your business, and 100% handwritten
+                    by a qualified human author. Nothing automated or bot generated, nothing that doesn't come from an
+                    active, verified account with a real human owner. As long as you follow these rules at all times,
+                    buying Trustpilot reviews can be safe.
                 </p>
             </div>
             <div class="col-lg-4 mt-2">
@@ -253,10 +250,10 @@ include ("includes/navbar.php");
             <div class="col-lg-12 mt-2 description">
                 <h1 class="header-title text-center">Why Buy Trustpilot Reviews from Reputation dealer ?</h1>
                 <p>
-                    For more than a decade, Media Mister has been providing an extensive range of premium-quality PR and
-                    marketing services at affordable prices. Most importantly, we understand and acknowledge the
-                    importance of safety and discretion. When you buy Trustpilot reviews from us, you buy 100% authentic
-                    reviews scripted by talented writers and submitted organically.
+                    For over a decade, Media Mister has offered a wide range of premium PR and marketing services at
+                    affordable prices. Most importantly, we understand and recognize the importance of security and
+                    discretion. When you buy Trustpilot reviews from us, you're buying 100% authentic reviews, written
+                    by talented writers and submitted organically.
                 </p>
                 <p>
                     The reviews we write are completely indistinguishable from the real thing and can be customised in
@@ -278,10 +275,11 @@ include ("includes/navbar.php");
                     </li>
                 </ul>
                 <p>
-                    We can write random Trustpilot reviews on your behalf, or you can give the custom comments and we’ll
-                    ensure it’s included. Choose from 3-Star Trustpilot reviews, 4-Star Trustpilot reviews and 5-Star
-                    Trustpilot reviews – whatever it takes to send the right message to your audience. Place your order
-                    online in just a few clicks, or contact the Media Mister support team anytime for more information.
+                    We can write random Trustpilot reviews on your behalf, or you can provide personalized feedback and
+                    we'll make sure it's included. Choose from 3-star Trustpilot ratings, 4-star Trustpilot ratings, and
+                    5-star Trustpilot ratings, it's your choice. It takes time to send the right message to your
+                    audience. Order online with just a few clicks or contact Media Mister's support team at any time for
+                    more information.
                 </p>
             </div>
         </div>
@@ -717,7 +715,7 @@ include ("includes/navbar.php");
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/1.png" class="rounded-circle review-image" alt="">
@@ -742,7 +740,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/2.jpg" class="rounded-circle review-image" alt="">
@@ -769,7 +767,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/3.png" class="rounded-circle review-image" alt="">
@@ -795,7 +793,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/4.png" class="rounded-circle review-image" alt="">
@@ -821,7 +819,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/5.png" class="rounded-circle review-image" alt="">
@@ -847,7 +845,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/6.jpg" class="rounded-circle review-image" alt="">
@@ -880,7 +878,7 @@ include ("includes/navbar.php");
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/1.png" class="rounded-circle review-image" alt="">
@@ -905,7 +903,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/2.jpg" class="rounded-circle review-image" alt="">
@@ -932,7 +930,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/3.png" class="rounded-circle review-image" alt="">
@@ -958,7 +956,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/4.png" class="rounded-circle review-image" alt="">
@@ -984,7 +982,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/5.png" class="rounded-circle review-image" alt="">
@@ -1010,7 +1008,7 @@ include ("includes/navbar.php");
                 </div>
                 <div class="swiper-slide">
                     <div class="card review-width">
-                        <div class="card-body">
+                        <div class="card-body" id="review">
                             <div class="row">
                                 <div class="col-3">
                                     <img src="assets/img/person/6.jpg" class="rounded-circle review-image" alt="">
@@ -1042,7 +1040,7 @@ include ("includes/navbar.php");
 </section>
 
 <?php
-include ("includes/footer.php");
+include("includes/footer.php");
 ?>
 
 <!-- Bootstrap Bundle with Popper -->
