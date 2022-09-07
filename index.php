@@ -111,7 +111,7 @@ include("includes/navbar.php");
 </section>
 
 <section class="bg-custom-light" id="features">
-    <div class="container pt-5 pb-5">
+    <div class="container pt-5 pb-3">
         <div class="row text-center">
             <div class="col-lg-12">
                 <h1 class="header-title">Let Us Make You The #1 Business in Your Market!</h1>
@@ -187,411 +187,412 @@ include("includes/navbar.php");
                 <h1 class="header-title">Our Clients Business Area</h1>
             </div>
         </div>
-                <div id="owl-carousel1" class="icon-title owl-carousel owl-theme">
-                    <div class="row">
-                        <div class="mt-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-4 my-auto text-end">
-                                            <p class="my-auto">
-                                                <i class="fa fa-university fa-2x"></i>
-                                            </p>
-                                        </div>
-                                        <div class="col-8 my-auto text-start">
-                                            Bank
-                                        </div>
-                                    </div>
+        <div id="owl-carousel1" class="icon-title owl-carousel owl-theme">
+            <div class="row">
+                <div class="mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4 my-auto text-end">
+                                    <p class="my-auto">
+                                        <i class="fa fa-university fa-2x"></i>
+                                    </p>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-4 my-auto text-end">
-                                            <p class="my-auto">
-                                                <i class="fa fa-suitcase fa-2x"></i>
-                                            </p>
-                                        </div>
-                                        <div class="col-8 my-auto text-start">
-                                            Travel Insurance
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-4 my-auto text-end">
-                                            <p class="my-auto">
-                                                <i class="fa fa-car fa-2x"></i>
-                                            </p>
-                                        </div>
-                                        <div class="col-8 my-auto text-start">
-                                            Car Dealer
-                                        </div>
-                                    </div>
+                                <div class="col-8 my-auto text-start">
+                                    Bank
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="mt-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-4 my-auto text-end">
-                                            <p class="my-auto">
-                                                <i class="fa fa-street-view fa-2x"></i>
-                                            </p>
-                                        </div>
-                                        <div class="col-8 my-auto text-start">
-                                            Furniture Store
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-4 my-auto text-end">
-                                            <p class="my-auto">
-                                                <i class="fa fa-diamond fa-2x"></i>
-                                            </p>
-                                        </div>
-                                        <div class="col-8 my-auto text-start">
-                                            Jewelry Store
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-4 my-auto text-end">
-                                            <p class="my-auto">
-                                                <i class="fa fa-universal-access fa-2x"></i>
-                                            </p>
-                                        </div>
-                                        <div class="col-8 my-auto text-start">
-                                            Clothing Store
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="mt-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-4 my-auto text-end">
-                                            <p class="my-auto">
-                                                <i class="fa fa-cutlery fa-2x"></i>
-                                            </p>
-                                        </div>
-                                        <div class="col-8 my-auto text-start">
-                                            Fitness & Nutrition
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-4 my-auto text-end">
-                                            <p class="my-auto">
-                                                <i class="fa fa-paw fa-2x"></i>
-                                            </p>
-                                        </div>
-                                        <div class="col-8 my-auto text-start">
-                                           Pet Store
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-4 my-auto text-end">
-                                            <p class="my-auto">
-                                                <i class="fa-solid fa-bolt fa-2x"></i>
-                                            </p>
-                                        </div>
-                                        <div class="col-8 my-auto text-start">
-                                            Energy Supplier
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="mt-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-4 my-auto text-end">
-                                            <p class="my-auto">
-                                                <i class="fa-solid fa-car-burst fa-2x"></i>
-                                            </p>
-                                        </div>
-                                        <div class="col-8 my-auto text-start">
-                                            Insurance Agency
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-4 my-auto text-end">
-                                            <p class="my-auto">
-                                                <i class="fa-solid fa-bed fa-2x"></i>
-                                            </p>
-                                        </div>
-                                        <div class="col-8 my-auto text-start">
-                                            Bedroom Furniture Store
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-4 my-auto text-end">
-                                            <p class="my-auto">
-                                                <i class="fa-solid fa-person fa-2x"></i>
-                                            </p>
-                                        </div>
-                                        <div class="col-8 my-auto text-start">
-                                            Women's Clothing Store
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="mt-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-4 my-auto text-end">
-                                            <p class="my-auto">
-                                                <i class="fa-solid fa-shirt fa-2x"></i>
-                                            </p>
-                                        </div>
-                                        <div class="col-8 my-auto text-start">
-                                            Men's Clothing Store
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-4 my-auto text-end">
-                                            <p class="my-auto">
-                                                <i class="fa-sharp fa-solid fa-person-biking fa-2x"></i>
-                                            </p>
-                                        </div>
-                                        <div class="col-8 my-auto text-start">
-                                            Bicycle Store
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-4 my-auto text-end">
-                                            <p class="my-auto">
-                                                <i class="fa-solid fa-shoe-prints fa-2x"></i>
-                                            </p>
-                                        </div>
-                                        <div class="col-8 my-auto text-start">
-                                           Shoe Store
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="mt-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-4 my-auto text-end">
-                                            <p class="my-auto">
-                                                <i class="fa-solid fa-store fa-2x"></i>
-                                            </p>
-                                        </div>
-                                        <div class="col-8 my-auto text-start">
-                                            Appilance Store
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-4 my-auto text-end">
-                                            <p class="my-auto">
-                                                <i class="fa-sharp fa-solid fa-store fa-2x"></i>
-                                            </p>
-                                        </div>
-                                        <div class="col-8 my-auto text-start">
-                                            Cosmetics Store
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-4 my-auto text-end">
-                                            <p class="my-auto">
-                                                <i class="fa-solid fa-shop fa-2x"></i>
-                                            </p>
-                                        </div>
-                                        <div class="col-8 my-auto text-start">
-                                           Electronics Store
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="mt-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-4 my-auto text-end">
-                                            <p class="my-auto">
-                                                <i class="fa-solid fa-globe fa-2x"></i>
-                                            </p>
-                                        </div>
-                                        <div class="col-8 my-auto text-start">
-                                            Travel Agency
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-4 my-auto text-end">
-                                            <p class="my-auto">
-                                                <i class="fa-solid fa-microchip fa-2x"></i>
-                                            </p>
-                                        </div>
-                                        <div class="col-8 my-auto text-start">
-                                            Electronics & Technology
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-4 my-auto text-end">
-                                            <p class="my-auto">
-                                                <i class="fa-solid fa-helmet-safety fa-2x"></i>
-                                            </p>
-                                        </div>
-                                        <div class="col-8 my-auto text-start">
-                                            Real Estate Agents
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="mt-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-4 my-auto text-end">
-                                            <p class="my-auto">
-                                                <i class="fa-sharp fa-solid fa-store fa-2x"></i>
-                                            </p>
-                                        </div>
-                                        <div class="col-8 my-auto text-start">
-                                            Activewear Store
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-4 my-auto text-end">
-                                            <p class="my-auto">
-                                                <i class="fa-solid fa-paint-roller fa-2x"></i>
-                                            </p>
-                                        </div>
-                                        <div class="col-8 my-auto text-start">
-                                            Martgage Broker
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-4 my-auto text-end">
-                                            <p class="my-auto">
-                                                <i class="fa-solid fa-lemon fa-2x"></i>
-                                            </p>
-                                        </div>
-                                        <div class="col-8 my-auto text-start">
-                                            Garden Center
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
-        </div>
+                <div class="mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4 my-auto text-end">
+                                    <p class="my-auto">
+                                        <i class="fa fa-suitcase fa-2x"></i>
+                                    </p>
+                                </div>
+                                <div class="col-8 my-auto text-start">
+                                    Travel Insurance
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4 my-auto text-end">
+                                    <p class="my-auto">
+                                        <i class="fa fa-car fa-2x"></i>
+                                    </p>
+                                </div>
+                                <div class="col-8 my-auto text-start">
+                                    Car Dealer
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4 my-auto text-end">
+                                    <p class="my-auto">
+                                        <i class="fa fa-street-view fa-2x"></i>
+                                    </p>
+                                </div>
+                                <div class="col-8 my-auto text-start">
+                                    Furniture Store
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4 my-auto text-end">
+                                    <p class="my-auto">
+                                        <i class="fa fa-diamond fa-2x"></i>
+                                    </p>
+                                </div>
+                                <div class="col-8 my-auto text-start">
+                                    Jewelry Store
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4 my-auto text-end">
+                                    <p class="my-auto">
+                                        <i class="fa fa-universal-access fa-2x"></i>
+                                    </p>
+                                </div>
+                                <div class="col-8 my-auto text-start">
+                                    Clothing Store
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4 my-auto text-end">
+                                    <p class="my-auto">
+                                        <i class="fa fa-cutlery fa-2x"></i>
+                                    </p>
+                                </div>
+                                <div class="col-8 my-auto text-start">
+                                    Fitness & Nutrition
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4 my-auto text-end">
+                                    <p class="my-auto">
+                                        <i class="fa fa-paw fa-2x"></i>
+                                    </p>
+                                </div>
+                                <div class="col-8 my-auto text-start">
+                                    Pet Store
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4 my-auto text-end">
+                                    <p class="my-auto">
+                                        <i class="fa-solid fa-bolt fa-2x"></i>
+                                    </p>
+                                </div>
+                                <div class="col-8 my-auto text-start">
+                                    Energy Supplier
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4 my-auto text-end">
+                                    <p class="my-auto">
+                                        <i class="fa-solid fa-car-burst fa-2x"></i>
+                                    </p>
+                                </div>
+                                <div class="col-8 my-auto text-start">
+                                    Insurance Agency
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4 my-auto text-end">
+                                    <p class="my-auto">
+                                        <i class="fa-solid fa-bed fa-2x"></i>
+                                    </p>
+                                </div>
+                                <div class="col-8 my-auto text-start">
+                                    Bedroom Furniture Store
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4 my-auto text-end">
+                                    <p class="my-auto">
+                                        <i class="fa-solid fa-person fa-2x"></i>
+                                    </p>
+                                </div>
+                                <div class="col-8 my-auto text-start">
+                                    Women's Clothing Store
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4 my-auto text-end">
+                                    <p class="my-auto">
+                                        <i class="fa-solid fa-shirt fa-2x"></i>
+                                    </p>
+                                </div>
+                                <div class="col-8 my-auto text-start">
+                                    Men's Clothing Store
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4 my-auto text-end">
+                                    <p class="my-auto">
+                                        <i class="fa-sharp fa-solid fa-person-biking fa-2x"></i>
+                                    </p>
+                                </div>
+                                <div class="col-8 my-auto text-start">
+                                    Bicycle Store
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4 my-auto text-end">
+                                    <p class="my-auto">
+                                        <i class="fa-solid fa-shoe-prints fa-2x"></i>
+                                    </p>
+                                </div>
+                                <div class="col-8 my-auto text-start">
+                                    Shoe Store
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4 my-auto text-end">
+                                    <p class="my-auto">
+                                        <i class="fa-solid fa-store fa-2x"></i>
+                                    </p>
+                                </div>
+                                <div class="col-8 my-auto text-start">
+                                    Appilance Store
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4 my-auto text-end">
+                                    <p class="my-auto">
+                                        <i class="fa-sharp fa-solid fa-store fa-2x"></i>
+                                    </p>
+                                </div>
+                                <div class="col-8 my-auto text-start">
+                                    Cosmetics Store
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4 my-auto text-end">
+                                    <p class="my-auto">
+                                        <i class="fa-solid fa-shop fa-2x"></i>
+                                    </p>
+                                </div>
+                                <div class="col-8 my-auto text-start">
+                                    Electronics Store
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4 my-auto text-end">
+                                    <p class="my-auto">
+                                        <i class="fa-solid fa-globe fa-2x"></i>
+                                    </p>
+                                </div>
+                                <div class="col-8 my-auto text-start">
+                                    Travel Agency
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4 my-auto text-end">
+                                    <p class="my-auto">
+                                        <i class="fa-solid fa-microchip fa-2x"></i>
+                                    </p>
+                                </div>
+                                <div class="col-8 my-auto text-start">
+                                    Electronics & Technology
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4 my-auto text-end">
+                                    <p class="my-auto">
+                                        <i class="fa-solid fa-helmet-safety fa-2x"></i>
+                                    </p>
+                                </div>
+                                <div class="col-8 my-auto text-start">
+                                    Real Estate Agents
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4 my-auto text-end">
+                                    <p class="my-auto">
+                                        <i class="fa-sharp fa-solid fa-store fa-2x"></i>
+                                    </p>
+                                </div>
+                                <div class="col-8 my-auto text-start">
+                                    Activewear Store
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4 my-auto text-end">
+                                    <p class="my-auto">
+                                        <i class="fa-solid fa-paint-roller fa-2x"></i>
+                                    </p>
+                                </div>
+                                <div class="col-8 my-auto text-start">
+                                    Martgage Broker
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4 my-auto text-end">
+                                    <p class="my-auto">
+                                        <i class="fa-solid fa-lemon fa-2x"></i>
+                                    </p>
+                                </div>
+                                <div class="col-8 my-auto text-start">
+                                    Garden Center
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+        </div>
+    </div>
+
+    <div class="container pb-3">
         <div class="row mt-3 text-center">
             <div class="col-lg-2">
 
@@ -617,6 +618,8 @@ include("includes/navbar.php");
                 </div>
             </div>
         </div>
+    </div>
+    </div>
 </section>
 
 <section class="bg-custom-white">
@@ -669,7 +672,7 @@ include("includes/navbar.php");
 </section>
 
 <section class="bg-custom-light" id="reviews">
-    <div class="container pt-5 pb-5">
+    <div class="container pt-5 pb-3">
         <div class="row text-center">
             <div class="col-lg-12">
                 <h1 class="header-title">Read Our Customer Reviews</h1>
