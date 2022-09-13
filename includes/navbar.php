@@ -22,6 +22,9 @@
                         <li class="nav-item">
                             <a class="nav-link active" href="index.php#faq">FAQ</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.php">Contact</a>
+                        </li>
                     </ul>
                 </div>
             </div>
